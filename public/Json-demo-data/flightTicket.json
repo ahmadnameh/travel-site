@@ -1,0 +1,50 @@
+{
+  "data" : [
+    {
+      "depart": {
+        "from": "Germany",
+        "to": "France",
+        "date": "2021-08-20T08:30:00Z",
+        "hour": "08:30 -- 12:15",
+        "flightCompany": "Turkish Airlines",
+        "duration": "3h 45m",
+        "img": {
+          "path": "/images/flight/Turkish_Airlines_logo-1080x608.png"
+        }
+      },
+      "return": {
+        "date": "2021-08-27T15:20:00Z",
+        "hour": "15:20 -- 19:30",
+        "flightCompany": "Turkish Airlines",
+        "duration": "4h 10m",
+        "img": {
+          "path": "/images/flight/Turkish_Airlines_logo-1080x608.png"
+        }
+      },
+      "price": "420$"
+    },
+    {
+      "depart": {
+        "from": "Germany",
+        "to": "France",
+        "date": "2021-08-22T13:30:00Z",
+        "hour": "13:30 -- 17:45",
+        "flightCompany": "Qatar Airlines",
+        "duration": "4h 15m",
+        "img": {
+          "path": "/images/flight/Qatar-Airways-Logo.png"
+        }
+      },
+      "return": {
+        "date": "2021-08-30T15:20:00Z",
+        "hour": "23:00 -- 03:00",
+        "flightCompany": "Korean Airlines",
+        "duration": "4h",
+        "img": {
+          "path": "/images/flight/korean-air-logo.png"
+        }
+      },
+      "price": "500$"
+    }
+  ]
+}

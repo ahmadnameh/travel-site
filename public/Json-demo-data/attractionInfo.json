@@ -1,0 +1,281 @@
+{
+  "data" :
+  {
+    "success": true,
+    "attraction": {
+        "id": 3,
+        "city_id": 3,
+        "attraction_type_id": 6,
+        "name": "Attraction",
+        "email": "attraction@email.com",
+        "location": "city center",
+        "phone_number": "44648",
+        "rate": 2,
+        "num_of_ratings": 2598,
+        "open_at": "2023-03-02 01:30:00",
+        "close_at": "2023-03-02 09:30:00",
+        "available_days": {
+            "Saturday": false,
+            "Sunday": true,
+            "Monday": true,
+            "Tuesday": true,
+            "Wednesday": true,
+            "Thursday": true,
+            "Friday": false
+        },
+        "child_ability_per_day": 5,
+        "adult_ability_per_day": 5,
+        "details": "A beautiful attraction to visit, with its wonderful scenes and perfect service, you will get best experience!",
+        "website_url": "https:\/\/attraction.com",
+        "adult_price": 350,
+        "child_price": 300,
+        "points_added_when_booking": 3,
+        "is_my_favourite": 0,
+        "city": {
+            "id": 3,
+            "name": "City",
+            "country_id": 1
+        },
+        "type": {
+            "id": 6,
+            "type": "Tourist Attraction",
+            "details": "These are the tourist attractions associated with the ancient architectural and artistic beauty that remains one of the most important and famous tourist destinations around the world."
+        },
+        "photos": [
+            {
+                "id": 13,
+                "path": "/images/attraction/france-paris-eiffel-tower.jpg"
+            },
+            {
+                "id": 14,
+                "path": "/images/attraction/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"
+            }
+        ]
+    },
+    "reviews": {
+        "current_page": 1,
+        "data": [
+            {
+                "id": 21,
+                "user_id": 7,
+                "attraction_id": 3,
+                "stars": 5,
+                "comment": "Very good trip! I loved the most the fountains in the city.",
+                "user": {
+                    "id": 7,
+                    "first_name": "Tyra Rice",
+                    "last_name": "Martin Langosh PhD",
+                    "photo": null
+                }
+            },
+            {
+                "id": 22,
+                "user_id": 9,
+                "attraction_id": 3,
+                "stars": 1,
+                "comment": "It was a bad trip!",
+                "user": {
+                    "id": 9,
+                    "first_name": "Mr. Corbin Swift Jr.",
+                    "last_name": "Alyce Orn",
+                    "photo": null
+                }
+            },
+            {
+                "id": 23,
+                "user_id": 8,
+                "attraction_id": 3,
+                "stars": 5,
+                "comment": "Very good trip! I loved the most the fountains in the city.",
+                "user": {
+                    "id": 8,
+                    "first_name": "Abigale Corkery",
+                    "last_name": "Brielle Jast",
+                    "photo": null
+                }
+            },
+            {
+                "id": 24,
+                "user_id": 10,
+                "attraction_id": 3,
+                "stars": 1,
+                "comment": "It was a bad trip!",
+                "user": {
+                    "id": 10,
+                    "first_name": "Isom Beatty",
+                    "last_name": "Dorian Feil",
+                    "photo": null
+                }
+            },
+            {
+                "id": 25,
+                "user_id": 6,
+                "attraction_id": 3,
+                "stars": 5,
+                "comment": "Very good trip! I loved the most the fountains in the city.",
+                "user": {
+                    "id": 6,
+                    "first_name": "Prof. Michaela Sipes DDS",
+                    "last_name": "Macy Prosacco MD",
+                    "photo": null
+                }
+            },
+            {
+                "id": 26,
+                "user_id": 8,
+                "attraction_id": 3,
+                "stars": 1,
+                "comment": "It was a bad trip!",
+                "user": {
+                    "id": 8,
+                    "first_name": "Abigale Corkery",
+                    "last_name": "Brielle Jast",
+                    "photo": null
+                }
+            }
+        ],
+        "first_page_url": "http:\/\/127.0.0.1:8000\/api\/attraction\/viewAttractionDetails?page=1",
+        "from": 1,
+        "last_page": 2,
+        "last_page_url": "http:\/\/127.0.0.1:8000\/api\/attraction\/viewAttractionDetails?page=2",
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "http:\/\/127.0.0.1:8000\/api\/attraction\/viewAttractionDetails?page=1",
+                "label": "1",
+                "active": true
+            },
+            {
+                "url": "http:\/\/127.0.0.1:8000\/api\/attraction\/viewAttractionDetails?page=2",
+                "label": "2",
+                "active": false
+            },
+            {
+                "url": "http:\/\/127.0.0.1:8000\/api\/attraction\/viewAttractionDetails?page=2",
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "next_page_url": "http:\/\/127.0.0.1:8000\/api\/attraction\/viewAttractionDetails?page=2",
+        "path": "http:\/\/127.0.0.1:8000\/api\/attraction\/viewAttractionDetails",
+        "per_page": 6,
+        "prev_page_url": null,
+        "to": 6,
+        "total": 10
+    },
+    "you_may_also_like": [
+        {
+            "id": 1,
+            "city_id": 3,
+            "name": "Atlantis Base",
+            "rate": 3,
+            "num_of_ratings": 490,
+            "adult_price": 28,
+            "child_price": 663,
+            "photo": {
+                "id": 6,
+                "path": "http:\/\/127.0.0.1:8000\/images\/attraction\/Atlantis_base.jpg"
+            },
+            "city": {
+                "id": 3,
+                "name": "Latakia",
+                "country_id": 1
+            }
+        },
+        {
+            "id": 2,
+            "city_id": 3,
+            "name": "Attractions_seine_river",
+            "rate": 2,
+            "num_of_ratings": 2700,
+            "adult_price": 716,
+            "child_price": 301,
+            "photo": {
+                "id": 12,
+                "path": "http:\/\/127.0.0.1:8000\/images\/attraction\/france-paris-attractions-seine-river-cruise-at-sunset.jpg"
+            },
+            "city": {
+                "id": 3,
+                "name": "Latakia",
+                "country_id": 1
+            }
+        },
+        {
+            "id": 3,
+            "city_id": 3,
+            "name": "Chatelet",
+            "rate": 2,
+            "num_of_ratings": 2598,
+            "adult_price": 306,
+            "child_price": 409,
+            "photo": {
+                "id": 18,
+                "path": "http:\/\/127.0.0.1:8000\/images\/attraction\/france-paris-chatelet.jpg"
+            },
+            "city": {
+                "id": 3,
+                "name": "Latakia",
+                "country_id": 1
+            }
+        },
+        {
+            "id": 12,
+            "city_id": 3,
+            "name": "Place Vendome",
+            "rate": 3,
+            "num_of_ratings": 690,
+            "adult_price": 620,
+            "child_price": 327,
+            "photo": {
+                "id": 72,
+                "path": "http:\/\/127.0.0.1:8000\/images\/attraction\/france-paris-place-vendome.jpg"
+            },
+            "city": {
+                "id": 3,
+                "name": "Latakia",
+                "country_id": 1
+            }
+        },
+        {
+            "id": 15,
+            "city_id": 3,
+            "name": "Arc De Triomphe",
+            "rate": 4,
+            "num_of_ratings": 2960,
+            "adult_price": 186,
+            "child_price": 969,
+            "photo": {
+                "id": 90,
+                "path": "http:\/\/127.0.0.1:8000\/images\/attraction\/france-paris-top-attractions-arc-de-triomphe.jpg"
+            },
+            "city": {
+                "id": 3,
+                "name": "Latakia",
+                "country_id": 1
+            }
+        },
+        {
+            "id": 16,
+            "city_id": 3,
+            "name": "La Conciergerie",
+            "rate": 1,
+            "num_of_ratings": 950,
+            "adult_price": 417,
+            "child_price": 865,
+            "photo": {
+                "id": 96,
+                "path": "http:\/\/127.0.0.1:8000\/images\/attraction\/france-paris-top-attractions-la-conciergerie.jpg"
+            },
+            "city": {
+                "id": 3,
+                "name": "Latakia",
+                "country_id": 1
+            }
+        }
+    ]
+}
+}

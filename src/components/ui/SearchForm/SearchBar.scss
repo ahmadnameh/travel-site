@@ -1,0 +1,98 @@
+@use "../../../styles/variables";
+
+.hotelSearchBar {
+  > button {
+    background-color: variables.$secondary-color;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  input[type="text"] {
+    padding: 16px;
+    background: transparent;
+    border-radius: 18px 18px 0 0;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+}
+
+
+.flightSearchBar {
+  > div:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    > button {
+      background-color: transparent;
+      color: rgb(211, 211, 211);
+      font-size: 16px;
+      border: none;
+      transition-duration: 0.3s;
+
+      &.typeTicketSelected {
+        color: white;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.tripSearchBar {
+  border-radius: 15px;
+  background-color: white;
+}
+.attractionSearchBar ,
+.tripSearchBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
+  > div:nth-of-type(1) {
+    width: 40%;
+  padding-top: 8px;
+  margin-left: 20px;
+  @media (max-width: 900px) {
+    width: 90%;
+    margin-left: 0;
+  }
+  input[type=text] {
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0 0 2px rgb(113, 113, 113);
+    margin-top: 4px;
+    margin-bottom: 4px;
+    transition: 0.3s;
+    width: 100%;
+    border: none;
+    
+    &:focus {
+      box-shadow: 0 0 2px black;
+    }
+  }
+  }
+
+  button {
+    padding: 28px 10px;
+    border-radius: 0 15px 15px 0;
+    border: none;
+    background-color: variables.$secondary-color;
+    color: white;
+    cursor: pointer;
+    @media (max-width: 900px) {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+
+}
+
+
+

@@ -1,0 +1,42 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none !important;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.container {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.flex_centering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionTitles {
+  font-size: 23px;
+  margin-top: 80px;
+}
+
+.price {
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 18px;
+}

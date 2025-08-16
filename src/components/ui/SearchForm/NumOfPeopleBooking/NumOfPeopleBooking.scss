@@ -1,0 +1,63 @@
+@use "../../../../styles/variables";
+
+.Num-of-people-booking {
+  position: relative;
+  align-content: center;
+
+  > p {
+    text-align: center;
+    font-size: 19px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #4b4b4b;
+    font-family: sans-serif;
+    > svg {
+      font-size: 30px;
+      color: gray;
+    }
+  }
+  > div {
+    background-color: white;
+    border-radius: 10px;
+    width: 200px;
+    padding: 15px;
+    box-shadow: 0 0 10px black;
+    position: absolute;
+    top: 45px;
+    z-index: 2;
+    display: none;
+    &.viewed {
+      display: block;
+    }
+    > div {
+      display: flex;
+      justify-content: space-between; 
+      align-items: center;
+      margin-top: 10px;
+
+      > div {
+        display: flex;
+        align-items: center;
+
+        span {
+          width: 25px;
+          height: 25px;
+          line-height: 1;
+          text-align: center;
+          background-color: variables.$primary-color;
+          color: white;
+          border: none;
+          font-size: 22px;
+          border-radius: 50%;
+          margin-left: 10px;
+          margin-right: 10px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  
+}

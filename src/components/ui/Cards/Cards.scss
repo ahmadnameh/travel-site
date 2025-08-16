@@ -1,0 +1,258 @@
+@use "../../../styles/variables";
+.hotelCard {
+  width: 280px;
+  margin: auto;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 0 7px #8f8f8f;
+
+  &:hover  img {
+    transform: scale(1.09);
+  }
+
+  > div:nth-of-type(1) {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    border-radius: inherit;
+    overflow: hidden;
+
+    > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: inherit;
+      transition: 0.5s;
+    }
+    >p{
+      position: absolute;
+      bottom: 6px;
+      left: 8px;
+      font-size: 20px;
+      color: white;
+      text-shadow: 0 0 4px BLACK;
+    }
+    > span {
+      position: absolute;
+      top: 10px;
+      right: 6px;
+      background-color: #bcba41;
+      color: #ffffff;
+      padding: 2px 5px;
+      display: flex;
+      align-items: center;
+      border-radius: 5px;
+
+    }
+  }
+  >p {
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+    color: white;
+    width: fit-content;
+    background-color: #ff7355;
+    padding: 3px 10px;
+    border-top-right-radius: 10px;
+    > svg {
+      font-size: 20px;
+    }
+  }
+  > div:nth-of-type(2) {
+    padding: 1px 10px;
+    line-height: 1.4;
+    text-align: left;
+    
+    > p{
+      font-size: 16px;
+    }
+    >p:last-child {
+      display: flex;
+      justify-content: space-between;
+    }
+    > div {
+      &:nth-of-type(1) {
+        color: #7f7f7f;
+        font-size: 15px;
+        font-family: sans-serif;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+      &:nth-of-type(2) {
+        padding: 10px;
+        width: 85%;
+        box-shadow: 0 0 2px;
+        margin: 5px auto;
+        border-radius: 10px;
+      }
+    }
+  
+  button {
+    width: 100%;
+    padding: 5px;
+    color: white;
+    border: none;
+    background-color: #004165;
+    border-radius: 15px 0;
+    transition: 0.15s;
+    margin-top: 5px;
+    border-radius: 6px;
+
+    &:hover {
+      background-color: #004265e4;
+    }
+  }
+}
+}
+
+.attractionCard {
+  width: 250px;
+  margin: auto;
+  position: relative;
+  > img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+  &:hover >img {
+    filter: drop-shadow(2px 4px 6px black);
+  }
+  > div {
+    border-radius: 2px;
+    background-image: linear-gradient(to top, #ececec, #f4f4f4);
+    padding: 10px;
+    > div:nth-of-type(1) , div:nth-of-type(2){
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    > div:nth-of-type(2) {
+      line-height: 1.5;
+    }
+
+    > div > p:nth-of-type(1) {
+      max-width: 135px;
+      font-size: 21px;
+      overflow: clip;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    > div > p:nth-of-type(2) { 
+      width: fit-content;
+      padding: 3px 6px;
+      border-radius: 20px;
+      box-shadow: 0 0 2px;
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+
+      &::before {
+      }
+      > svg {
+        font-size: 1rem;
+      }
+    }
+    
+
+      
+    button {
+      padding: 5px 22px;
+      background-color: #faaf00;
+      border-radius: 3px;
+    color: white;
+    border: none;
+    display: block;
+    }
+    > div:nth-of-type(3)  {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #7f7f7f;
+    font-size: 15px;
+    font-family: sans-serif;
+    }
+  }
+
+} 
+
+.loadinCard {
+  width: 260px;
+  border-radius: 10px 10px 0 0;
+}
+
+
+.tripCard {
+  width: 250px;
+  margin: auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  transition: transform 0.3s ease;
+  position: relative;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  >img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    clip-path: polygon(-73% 0%, 100% 0%, 101% 119%, 54% 91%, 2px 91%);
+  }
+  >div {
+    &:nth-of-type(1) {
+      position: absolute;
+      align-items: center;
+      background-color: white;
+      color: #111827;
+      font-weight: 500;
+      font-size: 14px;
+      padding: 4px 12px;
+      width: 160px;
+      border-radius: 3px 10px;
+      top: 57%;
+      left: 7px;
+      > span {
+        display: flex;
+      align-items: center;
+      > svg {
+        font-size: 14px;
+      }
+      }
+    }
+      &:nth-of-type(2) {
+        padding: 10px;
+        >div {
+          &:nth-of-type(1) {
+            font-size: 20px;
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 12px;
+            max-width: 100%;
+            overflow: clip;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+          &:nth-of-type(2),
+          &:nth-of-type(3)  {
+            font-size: 14px;
+            color: #374151;
+            margin-bottom: 6px;
+          }
+          &:nth-of-type(4) {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            font-size: 14px;
+            color: #f59e0b;
+            font-weight: 600;
+          }
+      }
+    }
+  }
+}

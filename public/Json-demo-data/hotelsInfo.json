@@ -1,0 +1,431 @@
+	{
+	"data": {
+	"Hotel_info": [
+	{
+			"id": 2,
+			"name": "Hotel Name",
+			"email": "hotel@email.com",
+			"location": "behind tour",
+			"phone_number": "+123 123 123",
+			"details": "A beautiful hotel to stay in, with its wonderful scenes and perfect service, you will get best experience! Mixing smart design with the unexpected, Hotel Hive unites modern innovation with historic character. Our distinctive 125-250 square foot rooms are perfectly unique hives for on-the-go guests looking to truly connect with the city. From its prime location, Hotel Hive guests can buzz about the city and return to a unique and innovative hotel experience.",
+			"num_of_rooms": 1,
+			"rate": 4,
+			"num_of_ratings": 80,
+			"stars": 5,
+			"price_start_from": 300,
+			"website_url": "https:\/\/hotel.com",
+			"city_id": 8,
+			"type_id": 5,
+			"admin_id": 2,
+			"type": {
+					"id": 5,
+					"name": "hotelType",
+					"created_at": "2025-07-18T09:19:58.000000Z",
+					"updated_at": "2025-07-18T09:19:58.000000Z"
+			},
+			"city": {
+					"id": 8,
+					"name": "paris",
+					"country_id": 3,
+					"country": {
+							"id": 3,
+							"name": "France"
+					}
+			},
+			"photo": [
+					{
+							"id": 7,
+							"path": "/images/hotel/pexels-curtis-adams-3935331.jpg"
+					},
+					{
+							"id": 8,
+							"path": "/images/hotel/pexels-pixabay-271815.jpg"
+					},
+					{
+							"id": 9,
+							"path": "/images/hotel/pexels-pixabay-261169.jpg"
+					}
+			],
+			"facilities": [
+					{
+							"id": 1,
+							"name": "Wifi",
+							"pivot": {
+									"hotel_id": 2,
+									"facilities_id": 1
+							}
+					},
+					{
+							"id": 6,
+							"name": "Gym",
+							"pivot": {
+									"hotel_id": 2,
+									"facilities_id": 6
+							}
+					},
+					{
+							"id": 6,
+							"name": "Gym",
+							"pivot": {
+									"hotel_id": 2,
+									"facilities_id": 6
+							}
+					}
+			]
+	}
+	],
+	"Rooms": [
+	{
+			"room_type": "Accessible room",
+			"beds": 3,
+			"price_for_night": 268,
+			"room_count": 1
+	},
+	{
+			"room_type": "Connected room",
+			"beds": 3,
+			"price_for_night": 234,
+			"room_count": 1
+	},
+	{
+			"room_type": "Connected room",
+			"beds": 3,
+			"price_for_night": 429,
+			"room_count": 1
+	},
+	{
+			"room_type": "Non-Smoking room",
+			"beds": 3,
+			"price_for_night": 320,
+			"room_count": 1
+	},
+	{
+			"room_type": "Single rooms",
+			"beds": 3,
+			"price_for_night": 337,
+			"room_count": 1
+	},
+	{
+			"room_type": "Suiet",
+			"beds": 3,
+			"price_for_night": 455,
+			"room_count": 1
+	},
+	{
+			"room_type": "Villa",
+			"beds": 3,
+			"price_for_night": 800,
+			"room_count": 1
+	}
+	],
+	"Reviews": {
+	"current_page": 1,
+	"data": [
+			{
+					"id": 11,
+					"user_id": 13,
+					"hotel_id": 2,
+					"rate": 1,
+					"comment": "Nice hotel!",
+					"user": {
+							"id": 13,
+							"first_name": "Mr. Jayson Douglas Sr.",
+							"last_name": "Derek Bednar",
+							"photo": null
+					}
+			},
+			{
+					"id": 12,
+					"user_id": 18,
+					"hotel_id": 2,
+					"rate": 3,
+					"comment": "I enjoyed myself so much. The room I was in was definitely for one person. It was small (I prefer the term \u201cEuropean\u201d), but had everything I needed. The shower was wonderful, the air conditioning worked so well in the 90+ degree heat, and the bed was very comfy. The people working there (everyone whose names I forgot to get, but especially James and Dana) were great at giving me ideas of where to eat in the neighborhood. Reese was a wonderful bartender, as was Vicki(?). Very fun. The location is great. Walking distance from the Mall, and very near the Foggy Bottom \u2014GWU metro stop which has 3 lines that can take you",
+					"user": {
+							"id": 18,
+							"first_name": "Caden Lueilwitz",
+							"last_name": "Alden Emard V",
+							"photo": null
+					}
+			},
+			{
+					"id": 13,
+					"user_id": 10,
+					"hotel_id": 2,
+					"rate": 5,
+					"comment": "Favorite hotel for traveling for business, comfortable, and clean! Great spot, walking and running distance to the monuments and local restaurants. Staff was so friendly, thank you for the great stay!",
+					"user": {
+							"id": 10,
+							"first_name": "Isom Beatty",
+							"last_name": "Dorian Feil",
+							"photo": null
+					}
+			},
+			{
+					"id": 14,
+					"user_id": 1,
+					"hotel_id": 2,
+					"rate": 1,
+					"comment": "Nice hotel!",
+					"user": {
+							"id": 1,
+							"first_name": "Hilma Terry",
+							"last_name": "Jamal Schumm",
+							"photo": null
+					}
+			},
+			{
+					"id": 15,
+					"user_id": 5,
+					"hotel_id": 2,
+					"rate": 1,
+					"comment": "I enjoyed myself so much. The room I was in was definitely for one person. It was small (I prefer the term \u201cEuropean\u201d), but had everything I needed. The shower was wonderful, the air conditioning worked so well in the 90+ degree heat, and the bed was very comfy. The people working there (everyone whose names I forgot to get, but especially James and Dana) were great at giving me ideas of where to eat in the neighborhood. Reese was a wonderful bartender, as was Vicki(?). Very fun. The location is great. Walking distance from the Mall, and very near the Foggy Bottom \u2014GWU metro stop which has 3 lines that can take you",
+					"user": {
+							"id": 5,
+							"first_name": "Mrs. Mittie Ritchie IV",
+							"last_name": "Prof. Kelli Morar",
+							"photo": null
+					}
+			},
+			{
+					"id": 16,
+					"user_id": 15,
+					"hotel_id": 2,
+					"rate": 2,
+					"comment": "Favorite hotel for traveling for business, comfortable, and clean! Great spot, walking and running distance to the monuments and local restaurants. Staff was so friendly, thank you for the great stay!",
+					"user": {
+							"id": 15,
+							"first_name": "Abdullah Koss III",
+							"last_name": "Adelbert Rutherford",
+							"photo": null
+					}
+			}
+	],
+	"first_page_url": "http:\/\/127.0.0.1:8000\/api\/AllHotelInfo?page=1",
+	"from": 1,
+	"last_page": 2,
+	"last_page_url": "http:\/\/127.0.0.1:8000\/api\/AllHotelInfo?page=2",
+	"links": [
+			{
+					"url": null,
+					"label": "&laquo; Previous",
+					"active": false
+			},
+			{
+					"url": "http:\/\/127.0.0.1:8000\/api\/AllHotelInfo?page=1",
+					"label": "1",
+					"active": true
+			},
+			{
+					"url": "http:\/\/127.0.0.1:8000\/api\/AllHotelInfo?page=2",
+					"label": "2",
+					"active": false
+			},
+			{
+					"url": "http:\/\/127.0.0.1:8000\/api\/AllHotelInfo?page=2",
+					"label": "Next &raquo;",
+					"active": false
+			}
+	],
+	"next_page_url": "http:\/\/127.0.0.1:8000\/api\/AllHotelInfo?page=2",
+	"path": "http:\/\/127.0.0.1:8000\/api\/AllHotelInfo",
+	"per_page": 6,
+	"prev_page_url": null,
+	"to": 6,
+	"total": 10
+	},
+	"Nearest_Hotels": [
+	{
+			"id": 2,
+			"name": "Sheraton",
+			"location": "behind tour",
+			"num_of_rooms": 1,
+			"rate": 5,
+			"num_of_ratings": 24,
+			"stars": 3,
+			"price_start_from": 320,
+			"city_id": 8,
+			"type_id": 5,
+			"admin_id": 2,
+			"photo": [
+					{
+							"id": 7,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-photo-1058759.jpeg"
+					},
+					{
+							"id": 8,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-photo-14357627.jpeg"
+					},
+					{
+							"id": 9,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-photo-594077.jpeg"
+					},
+					{
+							"id": 10,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-photo-2034335.jpeg"
+					},
+					{
+							"id": 11,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-photo-933337.jpeg"
+					},
+					{
+							"id": 12,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-donald-tong-189296.jpg.jpg"
+					}
+			],
+			"city": {
+					"id": 8,
+					"name": "Ankara",
+					"country_id": 3,
+					"country": {
+							"id": 3,
+							"name": "Turkey"
+					}
+			}
+	},
+	{
+			"id": 5,
+			"name": "Ritz-Carlton",
+			"location": "behind tour",
+			"num_of_rooms": 19,
+			"rate": 4,
+			"num_of_ratings": 13,
+			"stars": 4,
+			"price_start_from": 166,
+			"city_id": 9,
+			"type_id": 3,
+			"admin_id": 5,
+			"photo": [
+					{
+							"id": 25,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-photo-10642591.jpeg"
+					},
+					{
+							"id": 26,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-photo-1001965.jpeg"
+					},
+					{
+							"id": 27,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-photo-137090.jpeg"
+					},
+					{
+							"id": 28,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-pixabay-261102.jpg"
+					},
+					{
+							"id": 29,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-photo-261102.jpeg"
+					},
+					{
+							"id": 30,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-photo-261102.jpeg.jpg"
+					}
+			],
+			"city": {
+					"id": 9,
+					"name": "Izmir",
+					"country_id": 3,
+					"country": {
+							"id": 3,
+							"name": "Turkey"
+					}
+			}
+	},
+	{
+			"id": 8,
+			"name": "Embassy Suites",
+			"location": "behind tour",
+			"num_of_rooms": 1,
+			"rate": 5,
+			"num_of_ratings": 30,
+			"stars": 2,
+			"price_start_from": 356,
+			"city_id": 2,
+			"type_id": 1,
+			"admin_id": 8,
+			"photo": [
+					{
+							"id": 43,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-photo-1058759.jpeg"
+					},
+					{
+							"id": 44,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-photo-2034335.jpeg"
+					},
+					{
+							"id": 45,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-photo-12690518.jpeg"
+					},
+					{
+							"id": 46,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-photo-261102.jpeg"
+					},
+					{
+							"id": 47,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-photo-594077.jpeg"
+					},
+					{
+							"id": 48,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-photo-1001965.jpeg.jpg"
+					}
+			],
+			"city": {
+					"id": 2,
+					"name": "Aleppo",
+					"country_id": 1,
+					"country": {
+							"id": 1,
+							"name": "Syria"
+					}
+			}
+	},
+	{
+			"id": 11,
+			"name": "Hyatt Regency",
+			"location": "behind tour",
+			"num_of_rooms": 4,
+			"rate": 1,
+			"num_of_ratings": 24,
+			"stars": 2,
+			"price_start_from": 168,
+			"city_id": 9,
+			"type_id": 1,
+			"admin_id": 11,
+			"photo": [
+					{
+							"id": 61,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-photo-5088101.jpeg"
+					},
+					{
+							"id": 62,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-photo-261102.jpeg"
+					},
+					{
+							"id": 63,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-photo-12690518.jpeg"
+					},
+					{
+							"id": 64,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-photo-189296.jpeg"
+					},
+					{
+							"id": 65,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-photo-12690518.jpeg"
+					},
+					{
+							"id": 66,
+							"path": "http:\/\/127.0.0.1:8000\/images\/hotel\/pexels-photo-2034335.jpeg.jpg"
+					}
+			],
+			"city": {
+					"id": 9,
+					"name": "Izmir",
+					"country_id": 3,
+					"country": {
+							"id": 3,
+							"name": "Turkey"
+					}
+			}
+	}
+	]
+	}
+	}

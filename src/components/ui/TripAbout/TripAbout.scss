@@ -1,0 +1,34 @@
+.tripAbout {
+  > h3 {
+    font-size: 35px;
+  }
+  >p:nth-of-type(1) {
+    margin: 13px 0;
+  }
+  >p:nth-of-type(2) {
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+  >p:nth-of-type(3),
+  >p:nth-of-type(4) {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 25px 0;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .TripFeatures {
+    display: flex;
+    flex-wrap: wrap;
+    > span {
+      padding: 5px 10px;
+      background-color: #f1f2f3;
+      border-radius: 10px;
+      width: -moz-fit-content;
+      width: fit-content;
+      margin: 6px 10px
+    }
+  }
+}

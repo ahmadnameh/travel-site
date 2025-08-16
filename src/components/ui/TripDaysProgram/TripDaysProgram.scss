@@ -1,0 +1,76 @@
+@use"../../../styles/variables";
+
+.TripDaysProgram {
+  margin: 3rem 2rem;
+  > h4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: variables.$primary-color;
+    font-size: 19px;
+    font-family: sans-serif;
+
+    > svg {
+      color: variables.$secondary-color;
+    }
+  }
+  @media (max-width: 768px) {
+    margin: 1rem 0rem;
+  }
+
+  >div{
+      width: 80%;
+      margin: 10px auto;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+      > div {
+        cursor: pointer;
+        transition-duration: 0.3s;
+        padding: 10px 10px;
+        &:hover {
+          background-color: #ebebeb;
+        }
+      > div {
+        display: flex;
+        justify-content: space-between;
+
+        > svg {
+          border: 2px solid orangered;
+          border-radius: 50%;
+          transition: 0.3s;
+        }
+      }
+      &.openedItem {
+        background-color: rgba(188,205,224,0.2);
+        position: relative;
+        z-index: 0;
+        &::before {
+          content: '';
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          height: 100%;
+          animation: openItemAnimation 0.4s;
+          background-color: rgba(199, 202, 204, 0.516);
+          z-index: -1;
+        }
+        > div > svg {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+}
+
+
+
+@keyframes openItemAnimation {
+  0% {
+    width: 20%;
+  }
+  100% {
+    width:100%;
+  }
+}

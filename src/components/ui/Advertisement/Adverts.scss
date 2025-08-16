@@ -1,0 +1,264 @@
+@use "../../../styles/variables";
+
+.homeAdverts {
+  background-color: #f7f7f7;
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+    position: relative;
+
+    > div {
+      height: 400px;
+      color:beige;
+
+      &:nth-child(1) {
+        background-color: #006ce4;
+        border-radius: 40%;
+        padding: 10px;
+        overflow-y: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        > div {
+            > h3 {
+            background-image: linear-gradient(
+            -225deg,
+            white 0%,
+            #141961 50%,
+            #fc4552 100%
+            );
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            color: #fff;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 4s linear infinite;
+            text-align: center;
+            margin-bottom: 15px;
+          }
+          > ul {
+              height: 50px;
+              overflow: hidden;
+              font-size: 28px;
+              padding: 0;
+
+              @media (max-width: 540px) {
+                font-size: 22px;
+              }
+
+              > li {
+                height: 45px;
+                text-align: center;
+                animation-duration: 16s;
+                animation-iteration-count: infinite;
+                animation-name: top-down;
+
+                span {
+                  text-decoration: underline 3px solid #ff5733;
+                }
+              } 
+            }
+          }
+      }
+      > img {
+        width: 100%;
+        height: 100%;
+      } 
+    }
+  }
+}
+
+@keyframes textclip {
+  to {
+  background-position: 300% center;
+  }
+}
+
+
+@keyframes top-down {
+  0%{
+      transform: translateY(0px);
+  }
+  14%{
+      transform: translateY(-45px);
+  }
+  30%{
+      transform: translateY(-90px);
+  }
+  44%{
+      transform: translateY(-135px);
+  }
+  58%{
+      transform: translateY(-180px);
+  }
+  72%{
+      transform: translateY(-225px);
+  }
+  86% {
+      transform: translateY(-270px);
+  }
+  100%{
+      transform: translateY(-315px);
+  }
+  
+}
+
+
+
+.hotelAdverts {
+  background-color: #d2fdff;
+  background-image: linear-gradient(45deg, #6b4848, transparent);
+
+  > .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    align-items: center;
+
+    @media (max-width: 770px) {
+      flex-direction: column;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    > div:nth-child(2) p {
+        font-size: 25px;
+        line-height: 2;
+        &:nth-of-type(1){
+          font-family: "Brush Script MT",cursive;
+          font-size: 50px;
+        }
+      }
+  }
+}
+
+
+.tripAdverts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  > div:nth-of-type(1) {
+    font-size: 23px;
+    font-family: cursive;
+    >span {
+      font-size: 18px;
+      color: gray;
+    }
+    > h3 {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      > svg {
+        font-size: 40px;
+        color: variables.$secondary-color;
+      }
+    }
+    > p {
+      font-family: cursive;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      line-height: 2.9;
+      font-size: 23px;
+      > svg {
+        font-size: 35px;
+        color: variables.$primary-color;
+      }
+    }
+    > button {
+      color: white;
+      background-image: linear-gradient(45deg, #51a6c3, variables.$secondary-color);
+      padding: 10px 20px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      > svg {
+        transition: 0.3s;
+        transform-origin: 10px 10px;
+      }
+      &:hover > svg{
+        transform: rotate(-40deg);
+      }
+    }
+  }
+  > div:nth-of-type(2) {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+
+    &:after {
+      content: "";
+    width: 43px;
+    height: 460px;
+    background-image: linear-gradient(45deg, #ffffff17, transparent);
+    position: absolute;
+    top: -270px;
+    left: 9px;
+    transform: translate(-173px, 10px);
+    transition: 2s;
+    transform: rotate(45deg);
+    animation: se 3s  2s infinite ;
+    border-radius: 100px;
+    }
+    &::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: -15px;
+      top: -8px;
+      border: 1px solid orange;
+      border-radius: 25% 75% 90% 10% / 52% 73% 27% 48%;
+
+    }
+    > div {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+
+      > p{
+        color: #f1f1f1;
+        margin-bottom: 30px;
+        font-size: 33px;
+        text-align: center;
+        font-weight: 700;
+        text-shadow: 1px 1px black
+      }
+      
+    }
+
+    > img {
+      width: 95%;
+      height: 95%;
+      object-fit: cover;
+      border-radius: 10px;
+      border-radius: 25% 75% 90% 10% / 52% 73% 27% 48%;
+    }
+  }
+  
+}
+
+@keyframes se {
+  100% {
+    top: 100%;
+    left: 100%;
+  }
+}
+

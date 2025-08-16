@@ -1,0 +1,118 @@
+@use "../../../styles/variables";
+// .roomInfoWindow {
+//   position: relative;
+//   width: 100%;
+//   height: 100%;
+//   background-color: #3333337f;
+
+//   > div {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%,-50%);
+//     width: 70vw;
+//     background-color: white;
+//     border-radius: 10px;
+//   }
+// }
+.roomInfoWindow {
+  width: 70vw;
+  height: 440px;
+  position: relative;
+
+  @media (max-width: 992px) {
+    height: 90vh;
+  }
+  @media (max-width: 768px) {
+    width: 85vw;
+  }
+  > div {
+    display: flex;
+    gap: 10px 20px;
+
+    @media (max-width: 992px) {
+      flex-direction: column;
+      margin-top: 5px;
+    }
+
+    > div {
+      &:nth-of-type(1) {
+        width: 50%;
+        height: 425px;
+
+        @media (max-width: 992px) {
+          width: 100%;
+          height: 320px;
+        }
+      }
+      &:nth-of-type(2) {
+        text-align: left;
+
+        > p {
+          &:nth-of-type(2) {
+            margin-top: 10px;
+            margin-bottom: 10px;
+          }
+          &:nth-of-type(3),
+          &:nth-of-type(4) {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            @media (max-width: 992px) {
+              margin-top: 2px;
+              margin-bottom: 2px;
+            }
+          }
+        }
+
+        > div:nth-of-type(1) {
+          display: flex;
+          flex-direction: column;
+          height: 115px;
+          flex-wrap: wrap;
+          @media (max-width: 992px) {
+            flex-direction: row;
+            height: fit-content;
+          }
+
+          .roomFeature {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-weight: bold;
+            > svg {
+              color: variables.$secondary-color;
+            }
+          }
+        }
+        > div:last-child {
+          position: absolute;
+          bottom: 10px;
+          right: 10px;
+          @media (max-width: 768px) {
+            bottom: -10px;
+          }
+
+          > button {
+            background-color: variables.$secondary-color;
+            color: white;
+            padding: 5px 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            display: block;
+            margin-left: auto;
+          }
+        }
+      }
+      
+    }
+  }
+  button {
+    // position: absolute;
+    // display: block;
+    // margin-top: auto;
+    // margin-left: auto;
+  }
+}

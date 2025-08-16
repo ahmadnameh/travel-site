@@ -1,0 +1,223 @@
+@use "../../styles/variables";
+
+.mainWrap {
+  padding: 5px;
+  margin-right: 20px;
+
+  @media(max-width: 768px) {
+    margin-right: 0;
+  }
+  
+  .formWrapper {
+    padding: 15px 80px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: left;
+    min-height: 570px;
+    box-shadow: 0 0 59px #19406857;
+    position: relative;
+
+    @media (max-width: 768px) {
+      padding: 15px 20px;
+    }
+    img.logo {
+      width: 130px;
+      object-fit: cover;
+      object-position: -16px;
+    }
+    .title {
+      font-size: 30px;
+      font-weight: 500;
+      padding: 0 0 30px 0;
+      max-width: 300px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      label {
+        font-size: 14px;
+
+        &.custom-file-upload {
+          border-radius: 50%;
+          display: inline-block;
+          position: relative;
+          cursor: pointer;
+          margin-bottom: 25px;
+          position: absolute;
+          top: 115px;
+          right: 80px;
+
+          @media (max-width: 768px) {
+            right: 35px;
+          }
+          
+          span {
+            position: absolute;
+            top: 75px;
+            left: -6px;
+            z-index: 1
+          }
+
+          .profileImgUpload {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            overflow: hidden;
+            border-radius: 50%;
+          
+            &:hover{
+            opacity: 0.5;
+          }
+        }
+        }
+      }
+
+      input {
+        padding: 10px 7px;
+        width: 400px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 14px;
+        @media (max-width: 768px) {
+          width: auto;
+        }
+
+        &[type="file"] {
+          display: none;
+        }
+
+        &::placeholder {
+          color: #aaa;
+          font-size: 14px;
+        }
+        &.invalid_data {
+          border:2px solid red
+        }
+        &.PhoneInputInput {
+          width: 300px;
+        }
+      }
+      
+    }
+    button {
+      color: variables.$secondary-color;
+      background-color: transparent;
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+
+      &:nth-of-type(1) {
+        text-align: left;
+        margin-top: 12px;
+      }
+    }
+    button.signInButton {
+      background-color: variables.$primary-color;
+      color: #fffcf2;
+      border: none;
+      padding: 17px;
+      border-radius: 25px;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      width: 300px;
+      margin: 20px auto;
+      text-align: center;
+    }
+    p {
+      font-size: 15px;
+      margin: 4px auto;
+      /* color: #aaa; */
+      font-family: "MyFontLight";
+      position: relative;
+      max-width: 300px;
+
+      &.wrapparagraph {
+        &::after {
+        content: "";
+        width: 80px;
+        height: 1px;
+        position: absolute;
+        top: 11px;
+        background-color: #ddd;
+        margin: 0 7px;
+      }
+      &::before {
+        content: "";
+        width: 80px;
+        height: 1px;
+        position: absolute;
+        top: 11px;
+        left: -95px;
+        background-color: #ddd;
+        margin: 0 7px;
+      }
+    }
+      &.message {
+        color:green;
+        font-size:20px;
+        font-weight:600;
+      }
+      &.errormessage {
+        color: red;
+      }
+    }
+    .nameRegister {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      > div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        @media (max-width: 768px) {
+          width: 100%;
+        }
+
+        > input {
+          max-width: 180px;
+          display: inline-block;
+          @media (max-width: 768px) {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
+.auths_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fffcf2;
+ > div:nth-of-type(1) {
+  width: 65%;
+
+  @media (max-width: 992px) {
+    display: none;
+  }
+  > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  
+  }
+ }
+}
+
+
+
+
+
+

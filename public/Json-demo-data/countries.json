@@ -1,0 +1,30 @@
+{
+  "data" : {
+    "countries": [
+        {
+            "id": 1,
+            "name": "France"
+        },
+        {
+            "id": 2,
+            "name": "Germany"
+        },
+        {
+            "id": 3,
+            "name": "Turkey"
+        },
+        {
+            "id": 4,
+            "name": "Emirates"
+        },
+        {
+            "id": 5,
+            "name": "Russia"
+        },
+        {
+            "id": 6,
+            "name": "China"
+        }
+    ]
+  }
+}

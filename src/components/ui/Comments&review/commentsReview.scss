@@ -1,0 +1,115 @@
+@use "../../../styles/variables";
+
+.commentSection {
+  > div:nth-of-type(1) {
+    display: flex;
+    align-items: center;
+
+    > img {
+      width: 100px;
+    }
+  }
+  > div:nth-of-type(2) {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 35px;
+  flex-wrap: wrap;
+
+  .comments_review {
+    width: 60%;
+    padding: 10px;
+
+    @media(max-width: 1100px) {
+      width: 100%;
+    }
+    
+
+    > div {
+      padding: 10px;
+      box-shadow: 0 0 12px #dbdbdb;
+      margin-top: 18px;
+      transition: 0.3s;
+
+      &:hover {
+        transform: translateY(-10px);
+      }
+
+    > div:nth-of-type(1) {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+      > p:nth-of-type(1) {
+        width: 45px;
+        height: 45px;
+        line-height: 2.7;
+        text-align: center;
+        border-radius: 50%;
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+        ;
+      }
+      > p:nth-of-type(2) {
+        font-weight: bold;
+        font-size: 17px;
+        font-family: monospace;
+
+      }
+    }
+    > p {
+      margin-top: 13px;
+      margin-bottom: 15px;
+      font-family: sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    >hr {
+      width: 220px;
+    }
+
+  }
+}
+  .addcomment {
+    margin: 25px 0 20px 10px;
+    box-shadow: 0 0 10px #cfcfcf;
+    padding: 21px;
+    border-radius: 20px;
+    flex: 1;
+
+    > p {
+      display: flex;
+      justify-content: space-between;
+      font-size: 17px;
+      font-family: cursive;
+
+      > svg {
+        color: variables.$primary-color;
+      }
+    }
+
+    > div {
+      margin: 7px;
+    }
+
+    textarea {
+      width: 80%;
+      resize: vertical;
+      padding: 10px;
+      min-height: 80px;
+    }
+
+    button {
+      display: block;
+      margin-top: 20px;
+      margin-left: auto;
+      padding: 10px;
+      background-color: variables.$secondary-color;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}
+}

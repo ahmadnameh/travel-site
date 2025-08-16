@@ -1,0 +1,621 @@
+{
+  "data" : {
+    "topRated": [
+      {
+        "id": 1,
+        "destination": {
+          "id": 1,
+          "name": "Paris",
+          "country_id": 1,
+          "country": {
+            "id": 1,
+            "name": "France"
+            
+          }
+        },
+        "description": "Romantic Getaway",
+        "days_number": 7,
+        "rate": 5,
+        "num_of_ratings": 500,
+        "max_persons": 20,
+        "start_age": 18,
+        "end_age": 65,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 1,
+          "path": "/images/trip/france-paris-notre-dame.jpg"
+        }
+      },
+      {
+        "id": 2,
+        "destination": {
+          "id": 2,
+          "name": "Tokyo",
+          "country_id": 2,
+          "country": {
+            "id": 2,
+            "name": "Japan"
+          }
+        },
+        "description": "Cherry Blossom Tour",
+        "days_number": 10,
+        "rate": 5,
+        "num_of_ratings": 450,
+        "max_persons": 25,
+        "start_age": 15,
+        "end_age": 70,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 2,
+          "path": "/images/trip/map-of-tokyo-japan-shinjuku-1024x683.jpg"
+        }
+      },
+      {
+        "id": 3,
+        "destination": {
+          "id": 3,
+          "name": "Dubai",
+          "country_id": 3,
+          "country": {
+            "id": 3,
+            "name": "UAE"
+          }
+        },
+        "description": "Luxury Desert Safari",
+        "days_number": 5,
+        "rate": 4,
+        "num_of_ratings": 300,
+        "max_persons": 30,
+        "start_age": 12,
+        "end_age": 60,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 3,
+          "path": "/images/trip/upgJRVIx-Desert-safari-Dubai-400x300.jpg"
+        }
+      },
+      {
+        "id": 4,
+        "destination": {
+          "id": 4,
+          "name": "Istanbul",
+          "country_id": 4,
+          "country": {
+            "id": 4,
+            "name": "Turkey"
+          }
+        },
+        "description": "Historic Istanbul Tour",
+        "days_number": 6,
+        "rate": 4,
+        "num_of_ratings": 400,
+        "max_persons": 28,
+        "start_age": 10,
+        "end_age": 65,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 4,
+          "path": "/images/trip/Istanbul-Yeni-Camii-mosque-FT-MAG-0225-514497e0284d4f0389861b37e1d9a12e.webp"
+        }
+      },
+      {
+        "id": 5,
+        "destination": {
+          "id": 5,
+          "name": "Rome",
+          "country_id": 5,
+          "country": {
+            "id": 5,
+            "name": "Italy"
+          }
+        },
+        "description": "Ancient Rome Adventure",
+        "days_number": 8,
+        "rate": 5,
+        "num_of_ratings": 350,
+        "max_persons": 22,
+        "start_age": 16,
+        "end_age": 70,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 5,
+          "path": "/images/trip/Trevi-Fountain-rome-2-1024x683.jpg"
+        }
+      }
+    ],
+    "VIP": [
+      {
+        "id": 5,
+        "destination": {
+          "id": 5,
+          "name": "Rome",
+          "country_id": 5,
+          "country": {
+            "id": 5,
+            "name": "Italy"
+          }
+        },
+        "description": "Ancient Rome Adventure",
+        "days_number": 8,
+        "rate": 5,
+        "num_of_ratings": 350,
+        "max_persons": 22,
+        "start_age": 16,
+        "end_age": 70,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 5,
+          "path": "/images/trip/Trevi-Fountain-rome-2-1024x683.jpg"
+        }
+      },
+      {
+        "id": 4,
+        "destination": {
+          "id": 4,
+          "name": "Istanbul",
+          "country_id": 4,
+          "country": {
+            "id": 4,
+            "name": "Turkey"
+          }
+        },
+        "description": "Historic Istanbul Tour",
+        "days_number": 6,
+        "rate": 4,
+        "num_of_ratings": 400,
+        "max_persons": 28,
+        "start_age": 10,
+        "end_age": 65,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 4,
+          "path": "/images/trip/Istanbul-Yeni-Camii-mosque-FT-MAG-0225-514497e0284d4f0389861b37e1d9a12e.webp"
+        }
+      },
+      {
+        "id": 3,
+        "destination": {
+          "id": 3,
+          "name": "Dubai",
+          "country_id": 3,
+          "country": {
+            "id": 3,
+            "name": "UAE"
+          }
+        },
+        "description": "Luxury Desert Safari",
+        "days_number": 5,
+        "rate": 4,
+        "num_of_ratings": 300,
+        "max_persons": 30,
+        "start_age": 12,
+        "end_age": 60,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 3,
+          "path": "/images/trip/upgJRVIx-Desert-safari-Dubai-400x300.jpg"
+        }
+      },
+      {
+        "id": 2,
+        "destination": {
+          "id": 2,
+          "name": "Tokyo",
+          "country_id": 2,
+          "country": {
+            "id": 2,
+            "name": "Japan"
+          }
+        },
+        "description": "Cherry Blossom Tour",
+        "days_number": 10,
+        "rate": 5,
+        "num_of_ratings": 450,
+        "max_persons": 25,
+        "start_age": 15,
+        "end_age": 70,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 2,
+          "path": "/images/trip/map-of-tokyo-japan-shinjuku-1024x683.jpg"
+        }
+      },
+      {
+        "id": 1,
+        "destination": {
+          "id": 1,
+          "name": "Paris",
+          "country_id": 1,
+          "country": {
+            "id": 1,
+            "name": "France",
+            "path": "/images/trip/france-paris-notre-dame.jpg"
+          }
+        },
+        "description": "Romantic Getaway",
+        "days_number": 7,
+        "rate": 5,
+        "num_of_ratings": 500,
+        "max_persons": 20,
+        "start_age": 18,
+        "end_age": 65,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 1,
+          "path": "/images/trip/france-paris-notre-dame.jpg"
+        }
+      }
+    ],
+    "cheapest": [
+      {
+        "id": 2,
+        "destination": {
+          "id": 2,
+          "name": "Tokyo",
+          "country_id": 2,
+          "country": {
+            "id": 2,
+            "name": "Japan"
+          }
+        },
+        "description": "Cherry Blossom Tour",
+        "days_number": 10,
+        "rate": 5,
+        "num_of_ratings": 450,
+        "max_persons": 25,
+        "start_age": 15,
+        "end_age": 70,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 2,
+          "path": "/images/trip/map-of-tokyo-japan-shinjuku-1024x683.jpg"
+        }
+      },
+      {
+        "id": 3,
+        "destination": {
+          "id": 3,
+          "name": "Dubai",
+          "country_id": 3,
+          "country": {
+            "id": 3,
+            "name": "UAE"
+          }
+        },
+        "description": "Luxury Desert Safari",
+        "days_number": 5,
+        "rate": 4,
+        "num_of_ratings": 300,
+        "max_persons": 30,
+        "start_age": 12,
+        "end_age": 60,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 3,
+          "path": "/images/trip/upgJRVIx-Desert-safari-Dubai-400x300.jpg"
+        }
+      },
+      {
+        "id": 1,
+        "destination": {
+          "id": 1,
+          "name": "Paris",
+          "country_id": 1,
+          "country": {
+            "id": 1,
+            "name": "France",
+            "path": "/images/trip/france-paris-notre-dame.jpg"
+          }
+        },
+        "description": "Romantic Getaway",
+        "days_number": 7,
+        "rate": 5,
+        "num_of_ratings": 500,
+        "max_persons": 20,
+        "start_age": 18,
+        "end_age": 65,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 1,
+          "path": "/images/trip/france-paris-notre-dame.jpg"
+        }
+      },
+      {
+        "id": 4,
+        "destination": {
+          "id": 4,
+          "name": "Istanbul",
+          "country_id": 4,
+          "country": {
+            "id": 4,
+            "name": "Turkey"
+          }
+        },
+        "description": "Historic Istanbul Tour",
+        "days_number": 6,
+        "rate": 4,
+        "num_of_ratings": 400,
+        "max_persons": 28,
+        "start_age": 10,
+        "end_age": 65,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 4,
+          "path": "/images/trip/Istanbul-Yeni-Camii-mosque-FT-MAG-0225-514497e0284d4f0389861b37e1d9a12e.webp"
+        }
+      },
+      {
+        "id": 5,
+        "destination": {
+          "id": 5,
+          "name": "Rome",
+          "country_id": 5,
+          "country": {
+            "id": 5,
+            "name": "Italy"
+          }
+        },
+        "description": "Ancient Rome Adventure",
+        "days_number": 8,
+        "rate": 5,
+        "num_of_ratings": 350,
+        "max_persons": 22,
+        "start_age": 16,
+        "end_age": 70,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 5,
+          "path": "/images/trip/Trevi-Fountain-rome-2-1024x683.jpg"
+        }
+      }
+    ],
+    "longTrips": [
+      {
+        "id": 4,
+        "destination": {
+          "id": 4,
+          "name": "Istanbul",
+          "country_id": 4,
+          "country": {
+            "id": 4,
+            "name": "Turkey"
+          }
+        },
+        "description": "Historic Istanbul Tour",
+        "days_number": 6,
+        "rate": 4,
+        "num_of_ratings": 400,
+        "max_persons": 28,
+        "start_age": 10,
+        "end_age": 65,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 4,
+          "path": "/images/trip/Istanbul-Yeni-Camii-mosque-FT-MAG-0225-514497e0284d4f0389861b37e1d9a12e.webp"
+        }
+      },
+      {
+        "id": 1,
+        "destination": {
+          "id": 1,
+          "name": "Paris",
+          "country_id": 1,
+          "country": {
+            "id": 1,
+            "name": "France",
+            "path": "/images/trip/france-paris-notre-dame.jpg"
+          }
+        },
+        "description": "Romantic Getaway",
+        "days_number": 7,
+        "rate": 5,
+        "num_of_ratings": 500,
+        "max_persons": 20,
+        "start_age": 18,
+        "end_age": 65,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 1,
+          "path": "/images/trip/france-paris-notre-dame.jpg"
+        }
+      },
+      {
+        "id": 3,
+        "destination": {
+          "id": 3,
+          "name": "Dubai",
+          "country_id": 3,
+          "country": {
+            "id": 3,
+            "name": "UAE"
+          }
+        },
+        "description": "Luxury Desert Safari",
+        "days_number": 5,
+        "rate": 4,
+        "num_of_ratings": 300,
+        "max_persons": 30,
+        "start_age": 12,
+        "end_age": 60,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 3,
+          "path": "/images/trip/upgJRVIx-Desert-safari-Dubai-400x300.jpg"
+        }
+      },
+      {
+        "id": 2,
+        "destination": {
+          "id": 2,
+          "name": "Tokyo",
+          "country_id": 2,
+          "country": {
+            "id": 2,
+            "name": "Japan"
+          }
+        },
+        "description": "Cherry Blossom Tour",
+        "days_number": 10,
+        "rate": 5,
+        "num_of_ratings": 450,
+        "max_persons": 25,
+        "start_age": 15,
+        "end_age": 70,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 2,
+          "path": "/images/trip/map-of-tokyo-japan-shinjuku-1024x683.jpg"
+        }
+      },
+      
+      
+      {
+        "id": 5,
+        "destination": {
+          "id": 5,
+          "name": "Rome",
+          "country_id": 5,
+          "country": {
+            "id": 5,
+            "name": "Italy"
+          }
+        },
+        "description": "Ancient Rome Adventure",
+        "days_number": 8,
+        "rate": 5,
+        "num_of_ratings": 350,
+        "max_persons": 22,
+        "start_age": 16,
+        "end_age": 70,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 5,
+          "path": "/images/trip/Trevi-Fountain-rome-2-1024x683.jpg"
+        }
+      }
+    ],
+    "shortTrips": [
+      {
+        "id": 5,
+        "destination": {
+          "id": 5,
+          "name": "Rome",
+          "country_id": 5,
+          "country": {
+            "id": 5,
+            "name": "Italy"
+          }
+        },
+        "description": "Ancient Rome Adventure",
+        "days_number": 8,
+        "rate": 5,
+        "num_of_ratings": 350,
+        "max_persons": 22,
+        "start_age": 16,
+        "end_age": 70,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 5,
+          "path": "/images/trip/Trevi-Fountain-rome-2-1024x683.jpg"
+        }
+      },
+      {
+        "id": 1,
+        "destination": {
+          "id": 1,
+          "name": "Paris",
+          "country_id": 1,
+          "country": {
+            "id": 1,
+            "name": "France",
+            "path": "/images/trip/france-paris-notre-dame.jpg"
+          }
+        },
+        "description": "Romantic Getaway",
+        "days_number": 7,
+        "rate": 5,
+        "num_of_ratings": 500,
+        "max_persons": 20,
+        "start_age": 18,
+        "end_age": 65,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 1,
+          "path": "/images/trip/france-paris-notre-dame.jpg"
+        }
+      },
+      {
+        "id": 3,
+        "destination": {
+          "id": 3,
+          "name": "Dubai",
+          "country_id": 3,
+          "country": {
+            "id": 3,
+            "name": "UAE"
+          }
+        },
+        "description": "Luxury Desert Safari",
+        "days_number": 5,
+        "rate": 4,
+        "num_of_ratings": 300,
+        "max_persons": 30,
+        "start_age": 12,
+        "end_age": 60,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 3,
+          "path": "/images/trip/upgJRVIx-Desert-safari-Dubai-400x300.jpg"
+        }
+      },
+      {
+        "id": 2,
+        "destination": {
+          "id": 2,
+          "name": "Tokyo",
+          "country_id": 2,
+          "country": {
+            "id": 2,
+            "name": "Japan"
+          }
+        },
+        "description": "Cherry Blossom Tour",
+        "days_number": 10,
+        "rate": 5,
+        "num_of_ratings": 450,
+        "max_persons": 25,
+        "start_age": 15,
+        "end_age": 70,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 2,
+          "path": "/images/trip/map-of-tokyo-japan-shinjuku-1024x683.jpg"
+        }
+      },
+      {
+        "id": 4,
+        "destination": {
+          "id": 4,
+          "name": "Istanbul",
+          "country_id": 4,
+          "country": {
+            "id": 4,
+            "name": "Turkey"
+          }
+        },
+        "description": "Historic Istanbul Tour",
+        "days_number": 6,
+        "rate": 4,
+        "num_of_ratings": 400,
+        "max_persons": 28,
+        "start_age": 10,
+        "end_age": 65,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 4,
+          "path": "/images/trip/Istanbul-Yeni-Camii-mosque-FT-MAG-0225-514497e0284d4f0389861b37e1d9a12e.webp"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "data" : {
+    "topRated": [
+      {
+        "id": 1,
+        "city_id": 1,
+        "name": "Eiffel Tower",
+        "rate": 5,
+        "num_of_ratings": 2500,
+        "adult_price": 300,
+        "child_price": 150,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 1,
+          "path": "/images/attraction/france-paris-eiffel-tower.jpg"
+        },
+        "city": {
+          "id": 1,
+          "name": "Paris",
+          "country_id": 1
+        }
+      },
+      {
+        "id": 2,
+        "city_id": 1,
+        "name": "Louvre Museum",
+        "rate": 5,
+        "num_of_ratings": 2100,
+        "adult_price": 250,
+        "child_price": 120,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 2,
+          "path": "/images/attraction/france-paris-top-tourist-attractions-musee-du-louvre.jpg"
+        },
+        "city": {
+          "id": 1,
+          "name": "Paris",
+          "country_id": 1
+        }
+      },
+      {
+        "id": 3,
+        "city_id": 2,
+        "name": "Colosseum",
+        "rate": 5,
+        "num_of_ratings": 1800,
+        "adult_price": 280,
+        "child_price": 140,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 3,
+          "path": "/images/attraction/colloseum.webp"
+        },
+        "city": {
+          "id": 2,
+          "name": "Rome",
+          "country_id": 2
+        }
+      },
+      {
+        "id": 4,
+        "city_id": 3,
+        "name": "Big Ben",
+        "rate": 5,
+        "num_of_ratings": 2000,
+        "adult_price": 270,
+        "child_price": 130,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 4,
+          "path": "/images/attraction/big-ben.jpg"
+        },
+        "city": {
+          "id": 3,
+          "name": "London",
+          "country_id": 3
+        }
+      },
+      {
+        "id": 5,
+        "city_id": 4,
+        "name": "Burj Khalifa",
+        "rate": 5,
+        "num_of_ratings": 3000,
+        "adult_price": 350,
+        "child_price": 180,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 5,
+          "path": "/images/attraction/burj-khalifa.jpg"
+        },
+        "city": {
+          "id": 4,
+          "name": "Dubai",
+          "country_id": 4
+        }
+      },
+      {
+        "id": 6,
+        "city_id": 5,
+        "name": "Statue of Liberty",
+        "rate": 5,
+        "num_of_ratings": 2700,
+        "adult_price": 320,
+        "child_price": 160,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 6,
+          "path": "/images/attraction/status-of-liberty.webp"
+        },
+        "city": {
+          "id": 5,
+          "name": "New York",
+          "country_id": 5
+        }
+      }
+    ],
+    "paid": [
+      {
+        "id": 6,
+        "city_id": 5,
+        "name": "Statue of Liberty",
+        "rate": 5,
+        "num_of_ratings": 2700,
+        "adult_price": 320,
+        "child_price": 160,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 6,
+          "path": "/images/attraction/status-of-liberty.webp"
+        },
+        "city": {
+          "id": 5,
+          "name": "New York",
+          "country_id": 5
+        }
+      },
+      {
+        "id": 4,
+        "city_id": 3,
+        "name": "Big Ben",
+        "rate": 5,
+        "num_of_ratings": 2000,
+        "adult_price": 270,
+        "child_price": 130,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 4,
+          "path": "/images/attraction/big-ben.jpg"
+        },
+        "city": {
+          "id": 3,
+          "name": "London",
+          "country_id": 3
+        }
+      },
+      {
+        "id": 1,
+        "city_id": 1,
+        "name": "Eiffel Tower",
+        "rate": 5,
+        "num_of_ratings": 2500,
+        "adult_price": 300,
+        "child_price": 150,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 1,
+          "path": "/images/attraction/france-paris-eiffel-tower.jpg"
+        },
+        "city": {
+          "id": 1,
+          "name": "Paris",
+          "country_id": 1
+        }
+      },
+      {
+        "id": 3,
+        "city_id": 2,
+        "name": "Colosseum",
+        "rate": 5,
+        "num_of_ratings": 1800,
+        "adult_price": 280,
+        "child_price": 140,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 3,
+          "path": "/images/attraction/colloseum.webp"
+        },
+        "city": {
+          "id": 2,
+          "name": "Rome",
+          "country_id": 2
+        }
+      },
+      {
+        "id": 2,
+        "city_id": 1,
+        "name": "Louvre Museum",
+        "rate": 5,
+        "num_of_ratings": 2100,
+        "adult_price": 250,
+        "child_price": 120,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 2,
+          "path": "/images/attraction/france-paris-top-tourist-attractions-musee-du-louvre.jpg"
+        },
+        "city": {
+          "id": 1,
+          "name": "Paris",
+          "country_id": 1
+        }
+      },
+      {
+        "id": 5,
+        "city_id": 4,
+        "name": "Burj Khalifa",
+        "rate": 5,
+        "num_of_ratings": 3000,
+        "adult_price": 350,
+        "child_price": 180,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 5,
+          "path": "/images/attraction/burj-khalifa.jpg"
+        },
+        "city": {
+          "id": 4,
+          "name": "Dubai",
+          "country_id": 4
+        }
+      }
+      
+    ],
+    "free": [
+      {
+        "id": 5,
+        "city_id": 4,
+        "name": "Burj Khalifa",
+        "rate": 5,
+        "num_of_ratings": 3000,
+        "adult_price": 350,
+        "child_price": 180,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 5,
+          "path": "/images/attraction/burj-khalifa.jpg"
+        },
+        "city": {
+          "id": 4,
+          "name": "Dubai",
+          "country_id": 4
+        }
+      },
+      {
+        "id": 1,
+        "city_id": 1,
+        "name": "Eiffel Tower",
+        "rate": 5,
+        "num_of_ratings": 2500,
+        "adult_price": 300,
+        "child_price": 150,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 1,
+          "path": "/images/attraction/france-paris-eiffel-tower.jpg"
+        },
+        "city": {
+          "id": 1,
+          "name": "Paris",
+          "country_id": 1
+        }
+      },
+      {
+        "id": 2,
+        "city_id": 1,
+        "name": "Louvre Museum",
+        "rate": 5,
+        "num_of_ratings": 2100,
+        "adult_price": 250,
+        "child_price": 120,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 2,
+          "path": "/images/attraction/france-paris-top-tourist-attractions-musee-du-louvre.jpg"
+        },
+        "city": {
+          "id": 1,
+          "name": "Paris",
+          "country_id": 1
+        }
+      },
+      {
+        "id": 3,
+        "city_id": 2,
+        "name": "Colosseum",
+        "rate": 5,
+        "num_of_ratings": 1800,
+        "adult_price": 280,
+        "child_price": 140,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 3,
+          "path": "/images/attraction/colloseum.webp"
+        },
+        "city": {
+          "id": 2,
+          "name": "Rome",
+          "country_id": 2
+        }
+      },
+      
+      
+      {
+        "id": 4,
+        "city_id": 3,
+        "name": "Big Ben",
+        "rate": 5,
+        "num_of_ratings": 2000,
+        "adult_price": 270,
+        "child_price": 130,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 4,
+          "path": "/images/attraction/big-ben.jpg"
+        },
+        "city": {
+          "id": 3,
+          "name": "London",
+          "country_id": 3
+        }
+      },
+      {
+        "id": 6,
+        "city_id": 5,
+        "name": "Statue of Liberty",
+        "rate": 5,
+        "num_of_ratings": 2700,
+        "adult_price": 320,
+        "child_price": 160,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 6,
+          "path": "/images/attraction/status-of-liberty.webp"
+        },
+        "city": {
+          "id": 5,
+          "name": "New York",
+          "country_id": 5
+        }
+      }
+    ]
+  }
+  
+}

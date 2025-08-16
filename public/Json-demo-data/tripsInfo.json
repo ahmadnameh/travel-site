@@ -1,0 +1,267 @@
+{
+  "data" : 
+  {
+    "success": true,
+    "trip": {
+        "id": 17,
+        "trip_company_id": 6,
+        "destination": {
+            "id": 20,
+            "name": "Beijing",
+            "country_id": 7
+        },
+        "description": "Trip Name",
+        "details": "Start and end in Eorupe ! With the Explorer tour Ultimate Europe - 26 Days, you have a 26 days tour package taking you through Amsterdam, Netherlands and 26 other destinations in Europe. Ultimate Europe - 26 Days includes accommodation in a hotel as well as an expert guide, meals, transport and more.",
+        "days_number": 14,
+        "max_persons": 25,
+        "rate": 5,
+        "num_of_ratings": 20,
+        "start_age": 11,
+        "end_age": 82,
+        "is_my_favourite": 0,
+        "photos": [
+            {
+                "id": 98,
+                "path": "/images/trip/pexels-haley-black-2087391.jpg"
+            },
+            {
+                "id": 97,
+                "path": "/images/trip/7162521c354b4af0a02e736ed13db088_cut_600x550_241_1747326936.jpg"
+            },
+            {
+                "id": 99,
+                "path": "/images/trip/gettyimages_636146924_halki_naxos.webp"
+            },
+            {
+                "id": 100,
+                "path": "/images/trip/mountaineers-5649828_1920.jpg"
+            }
+        ],
+        "services": [
+            {
+                "id": 1,
+                "service": "Accommodation"
+            },
+            {
+                "id": 2,
+                "service": "Guide"
+            },
+            {
+                "id": 3,
+                "service": "COVID-19 Health & Safety Measures"
+            },
+            {
+                "id": 4,
+                "service": "Meals"
+            }
+        ],
+        "activities": [
+            {
+                "id": 1,
+                "activity": "Exploring"
+            },
+            {
+                "id": 2,
+                "activity": "Bicycle"
+            },
+            {
+                "id": 3,
+                "activity": "River Cruise"
+            },
+            {
+                "id": 4,
+                "activity": "Festival & Events"
+            }
+        ],
+        "days": [
+            {
+                "id": 166,
+                "trip_id": 17,
+                "day_number": 1,
+                "title": "arrival",
+                "details": "this is the first day here! just rest in this day and entertainment will start from the next day."
+            },
+            {
+                "id": 167,
+                "trip_id": 17,
+                "day_number": 2,
+                "title": "swimming",
+                "details": "The tour continues to Germany today. Admire the views as the coach travels through the Dutch and German countryside on the way to Berlin - Germany\u2019s capital city which is full of history and a rejuvenated spirit. Having emerged from a turbulent and dark past, today Berlin bursts with positive energy and features lots to see and experience - including historic sights, intriguing museums, a vibrant cultural scene and exciting nightlife. Look forward to exploring the city\u2019s mix of reminders of life during the Cold War and modern times on the free day tomorrow. Arrive in the city in the late afternoon. Enjoy views of Berlin during a driving tour before dinner this evening, which will be at a lively beer hall."
+            },
+            {
+                "id": 168,
+                "trip_id": 17,
+                "day_number": 3,
+                "title": "riding bicycle",
+                "details": "Look forward to a full free day to explore Berlin! Some of the city\u2019s most famous sites include the Berlin Wall, Brandenburg Gate, Checkpoint Charlie, Alexanderplatz and the Reichstag. Joining the Berlin optional excursion is a great way to discover this vibrant German city with your tour leader - see the East Side Gallery, visit the Museum in the Kulturbrauerei, explore the hidden sites of Hackescher Markt, taste currywurst and view the city from the iconic Berlin TV Tower! Tonight, find a local restaurant in the city to enjoy dinner. Later, make sure to stroll along the city centre streets and to get a taste of the unique atmosphere of Berlin at night!"
+            },
+            {
+                "id": 169,
+                "trip_id": 17,
+                "day_number": 4,
+                "title": "visiting cinema city",
+                "details": "The fairytale magic of Prague is yours to discover today! With centuries of history, castles, striking buildings and historic bridges, Prague combines old-world wisdom with an essence of youthful energy. Join the Prague optional tour and explore more of the city. Enjoy a sightseeing river cruise including lunch, plus a guided tour of Prague Castle. Alternatively, head out on your own. Visit the clock tower, leave your stamp on the city at the Lennon Wall, see Wenceslas Square, visit the Jewish Quarter or spend time in the Mala Strana district. Sip Czech brew in a beer house and try a traditional trdelnik! Later, enjoy an evening of folk music and dancing on the Traditional Czech Folk Evening optional excursion!"
+            },
+            {
+                "id": 170,
+                "trip_id": 17,
+                "day_number": 5,
+                "title": "visiting museum",
+                "details": "Discover the delights of Amsterdam on this free day! Spend the day in the city. Wander through famous museums such as the Van Gogh Museum or the Rijksmuseum. Browse the flower market, relax in one of the parks or explore the city by bicycle - just like the locals do! Or, join the MOCO and House of Bols optional excursion. The MOCO Museum houses modern and contemporary art from the likes of Banksy, Japanese artist Yayoi Kusama and much more! After the museum, head to the House of Bols to learn all about genever (Dutch gin). Choose to complete the free day with the optional Diversely Dutch Dinner!"
+            },
+            {
+                "id": 171,
+                "trip_id": 17,
+                "day_number": 6,
+                "title": "swimming",
+                "details": "The tour continues to Germany today. Admire the views as the coach travels through the Dutch and German countryside on the way to Berlin - Germany\u2019s capital city which is full of history and a rejuvenated spirit. Having emerged from a turbulent and dark past, today Berlin bursts with positive energy and features lots to see and experience - including historic sights, intriguing museums, a vibrant cultural scene and exciting nightlife. Look forward to exploring the city\u2019s mix of reminders of life during the Cold War and modern times on the free day tomorrow. Arrive in the city in the late afternoon. Enjoy views of Berlin during a driving tour before dinner this evening, which will be at a lively beer hall."
+            },
+            {
+                "id": 172,
+                "trip_id": 17,
+                "day_number": 7,
+                "title": "riding bicycle",
+                "details": "Look forward to a full free day to explore Berlin! Some of the city\u2019s most famous sites include the Berlin Wall, Brandenburg Gate, Checkpoint Charlie, Alexanderplatz and the Reichstag. Joining the Berlin optional excursion is a great way to discover this vibrant German city with your tour leader - see the East Side Gallery, visit the Museum in the Kulturbrauerei, explore the hidden sites of Hackescher Markt, taste currywurst and view the city from the iconic Berlin TV Tower! Tonight, find a local restaurant in the city to enjoy dinner. Later, make sure to stroll along the city centre streets and to get a taste of the unique atmosphere of Berlin at night!"
+            },
+            {
+                "id": 173,
+                "trip_id": 17,
+                "day_number": 8,
+                "title": "visiting cinema city",
+                "details": "The fairytale magic of Prague is yours to discover today! With centuries of history, castles, striking buildings and historic bridges, Prague combines old-world wisdom with an essence of youthful energy. Join the Prague optional tour and explore more of the city. Enjoy a sightseeing river cruise including lunch, plus a guided tour of Prague Castle. Alternatively, head out on your own. Visit the clock tower, leave your stamp on the city at the Lennon Wall, see Wenceslas Square, visit the Jewish Quarter or spend time in the Mala Strana district. Sip Czech brew in a beer house and try a traditional trdelnik! Later, enjoy an evening of folk music and dancing on the Traditional Czech Folk Evening optional excursion!"
+            },
+            {
+                "id": 174,
+                "trip_id": 17,
+                "day_number": 9,
+                "title": "visiting museum",
+                "details": "Discover the delights of Amsterdam on this free day! Spend the day in the city. Wander through famous museums such as the Van Gogh Museum or the Rijksmuseum. Browse the flower market, relax in one of the parks or explore the city by bicycle - just like the locals do! Or, join the MOCO and House of Bols optional excursion. The MOCO Museum houses modern and contemporary art from the likes of Banksy, Japanese artist Yayoi Kusama and much more! After the museum, head to the House of Bols to learn all about genever (Dutch gin). Choose to complete the free day with the optional Diversely Dutch Dinner!"
+            },
+            {
+                "id": 175,
+                "trip_id": 17,
+                "day_number": 10,
+                "title": "swimming",
+                "details": "The tour continues to Germany today. Admire the views as the coach travels through the Dutch and German countryside on the way to Berlin - Germany\u2019s capital city which is full of history and a rejuvenated spirit. Having emerged from a turbulent and dark past, today Berlin bursts with positive energy and features lots to see and experience - including historic sights, intriguing museums, a vibrant cultural scene and exciting nightlife. Look forward to exploring the city\u2019s mix of reminders of life during the Cold War and modern times on the free day tomorrow. Arrive in the city in the late afternoon. Enjoy views of Berlin during a driving tour before dinner this evening, which will be at a lively beer hall."
+            },
+            {
+                "id": 176,
+                "trip_id": 17,
+                "day_number": 11,
+                "title": "riding bicycle",
+                "details": "Look forward to a full free day to explore Berlin! Some of the city\u2019s most famous sites include the Berlin Wall, Brandenburg Gate, Checkpoint Charlie, Alexanderplatz and the Reichstag. Joining the Berlin optional excursion is a great way to discover this vibrant German city with your tour leader - see the East Side Gallery, visit the Museum in the Kulturbrauerei, explore the hidden sites of Hackescher Markt, taste currywurst and view the city from the iconic Berlin TV Tower! Tonight, find a local restaurant in the city to enjoy dinner. Later, make sure to stroll along the city centre streets and to get a taste of the unique atmosphere of Berlin at night!"
+            },
+            {
+                "id": 177,
+                "trip_id": 17,
+                "day_number": 12,
+                "title": "visiting cinema city",
+                "details": "The fairytale magic of Prague is yours to discover today! With centuries of history, castles, striking buildings and historic bridges, Prague combines old-world wisdom with an essence of youthful energy. Join the Prague optional tour and explore more of the city. Enjoy a sightseeing river cruise including lunch, plus a guided tour of Prague Castle. Alternatively, head out on your own. Visit the clock tower, leave your stamp on the city at the Lennon Wall, see Wenceslas Square, visit the Jewish Quarter or spend time in the Mala Strana district. Sip Czech brew in a beer house and try a traditional trdelnik! Later, enjoy an evening of folk music and dancing on the Traditional Czech Folk Evening optional excursion!"
+            },
+            {
+                "id": 178,
+                "trip_id": 17,
+                "day_number": 13,
+                "title": "visiting museum",
+                "details": "Discover the delights of Amsterdam on this free day! Spend the day in the city. Wander through famous museums such as the Van Gogh Museum or the Rijksmuseum. Browse the flower market, relax in one of the parks or explore the city by bicycle - just like the locals do! Or, join the MOCO and House of Bols optional excursion. The MOCO Museum houses modern and contemporary art from the likes of Banksy, Japanese artist Yayoi Kusama and much more! After the museum, head to the House of Bols to learn all about genever (Dutch gin). Choose to complete the free day with the optional Diversely Dutch Dinner!"
+            },
+            {
+                "id": 179,
+                "trip_id": 17,
+                "day_number": 14,
+                "title": "swimming",
+                "details": "The tour continues to Germany today. Admire the views as the coach travels through the Dutch and German countryside on the way to Berlin - Germany\u2019s capital city which is full of history and a rejuvenated spirit. Having emerged from a turbulent and dark past, today Berlin bursts with positive energy and features lots to see and experience - including historic sights, intriguing museums, a vibrant cultural scene and exciting nightlife. Look forward to exploring the city\u2019s mix of reminders of life during the Cold War and modern times on the free day tomorrow. Arrive in the city in the late afternoon. Enjoy views of Berlin during a driving tour before dinner this evening, which will be at a lively beer hall."
+            }
+        ],
+        "dates": [
+            {
+                "id": 49,
+                "departure_date": "2021-07-18 09:20:16",
+                "trip_id": 17,
+                "price": 1700
+            },
+            {
+                "id": 50,
+                "departure_date": "2021-08-18 09:20:16",
+                "trip_id": 17,
+                "price": 1700
+            },
+            {
+                "id": 51,
+                "departure_date": "2021-09-18 09:20:16",
+                "trip_id": 17,
+                "price": 1700
+            }
+        ],
+        "offers": []
+    },
+    "reviews": {
+        "current_page": 1,
+        "data": [
+            {
+                "id": 49,
+                "stars": 5,
+                "comment": "Very good trip! I loved the most the fountains in the city.",
+                "user_id": 1,
+                "user": {
+                    "id": 1,
+                    "first_name": "Hilma Terry",
+                    "last_name": "Jamal Schumm",
+                    "photo": null
+                }
+            },
+            {
+                "id": 50,
+                "stars": 1,
+                "comment": "It was a bad trip!",
+                "user_id": 2,
+                "user": {
+                    "id": 2,
+                    "first_name": "Mrs. Nelle Johnson",
+                    "last_name": "Prof. Jack VonRueden",
+                    "photo": null
+                }
+            },
+            {
+                "id": 51,
+                "stars": 1,
+                "comment": "It was a bad trip!",
+                "user_id": 3,
+                "user": {
+                    "id": 3,
+                    "first_name": "Ms. Alexa Reinger",
+                    "last_name": "Dr. Michel Hoppe DVM",
+                    "photo": null
+                }
+            }
+        ],
+        "first_page_url": "http:\/\/127.0.0.1:8000\/api\/trip\/viewTripDetails?page=1",
+        "from": 1,
+        "last_page": 1,
+        "last_page_url": "http:\/\/127.0.0.1:8000\/api\/trip\/viewTripDetails?page=1",
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "http:\/\/127.0.0.1:8000\/api\/trip\/viewTripDetails?page=1",
+                "label": "1",
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "next_page_url": null,
+        "path": "http:\/\/127.0.0.1:8000\/api\/trip\/viewTripDetails",
+        "per_page": 6,
+        "prev_page_url": null,
+        "to": 3,
+        "total": 3
+    }
+}
+}

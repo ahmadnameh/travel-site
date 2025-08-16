@@ -1,0 +1,414 @@
+
+{
+  "data" : {
+    "top_attractions": [
+      {
+        "id": 1,
+        "city_id": 1,
+        "name": "Eiffel Tower",
+        "rate": 5,
+        "num_of_ratings": 2500,
+        "adult_price": 300,
+        "child_price": 150,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 1,
+          "path": "/images/attraction/france-paris-eiffel-tower.jpg"
+        },
+        "city": {
+          "id": 1,
+          "name": "Paris",
+          "country_id": 1
+        }
+      },
+      {
+        "id": 2,
+        "city_id": 1,
+        "name": "Louvre Museum",
+        "rate": 5,
+        "num_of_ratings": 2100,
+        "adult_price": 250,
+        "child_price": 120,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 2,
+          "path": "/images/attraction/france-paris-top-tourist-attractions-musee-du-louvre.jpg"
+        },
+        "city": {
+          "id": 1,
+          "name": "Paris",
+          "country_id": 1
+        }
+      },
+      {
+        "id": 3,
+        "city_id": 2,
+        "name": "Colosseum",
+        "rate": 5,
+        "num_of_ratings": 1800,
+        "adult_price": 280,
+        "child_price": 140,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 3,
+          "path": "/images/attraction/colloseum.webp"
+        },
+        "city": {
+          "id": 2,
+          "name": "Rome",
+          "country_id": 2
+        }
+      },
+      {
+        "id": 4,
+        "city_id": 3,
+        "name": "Big Ben",
+        "rate": 5,
+        "num_of_ratings": 2000,
+        "adult_price": 270,
+        "child_price": 130,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 4,
+          "path": "/images/attraction/big-ben.jpg"
+        },
+        "city": {
+          "id": 3,
+          "name": "London",
+          "country_id": 3
+        }
+      },
+      {
+        "id": 5,
+        "city_id": 4,
+        "name": "Burj Khalifa",
+        "rate": 5,
+        "num_of_ratings": 3000,
+        "adult_price": 350,
+        "child_price": 180,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 5,
+          "path": "/images/attraction/burj-khalifa.jpg"
+        },
+        "city": {
+          "id": 4,
+          "name": "Dubai",
+          "country_id": 4
+        }
+      },
+      {
+        "id": 6,
+        "city_id": 5,
+        "name": "Statue of Liberty",
+        "rate": 5,
+        "num_of_ratings": 2700,
+        "adult_price": 320,
+        "child_price": 160,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 6,
+          "path": "/images/attraction/status-of-liberty.webp"
+        },
+        "city": {
+          "id": 5,
+          "name": "New York",
+          "country_id": 5
+        }
+      }
+    ],
+    "top_trips": [
+      {
+        "id": 1,
+        "destination": {
+          "id": 1,
+          "name": "Paris",
+          "country_id": 1,
+          "country": {
+            "id": 1,
+            "name": "France"
+            
+          }
+        },
+        "description": "Romantic Getaway",
+        "days_number": 7,
+        "rate": 5,
+        "num_of_ratings": 500,
+        "max_persons": 20,
+        "start_age": 18,
+        "end_age": 65,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 1,
+          "path": "/images/trip/france-paris-notre-dame.jpg"
+        }
+      },
+      {
+        "id": 2,
+        "destination": {
+          "id": 2,
+          "name": "Tokyo",
+          "country_id": 2,
+          "country": {
+            "id": 2,
+            "name": "Japan"
+          }
+        },
+        "description": "Cherry Blossom Tour",
+        "days_number": 10,
+        "rate": 5,
+        "num_of_ratings": 450,
+        "max_persons": 25,
+        "start_age": 15,
+        "end_age": 70,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 2,
+          "path": "/images/trip/map-of-tokyo-japan-shinjuku-1024x683.jpg"
+        }
+      },
+      {
+        "id": 3,
+        "destination": {
+          "id": 3,
+          "name": "Dubai",
+          "country_id": 3,
+          "country": {
+            "id": 3,
+            "name": "UAE"
+          }
+        },
+        "description": "Luxury Desert Safari",
+        "days_number": 5,
+        "rate": 4,
+        "num_of_ratings": 300,
+        "max_persons": 30,
+        "start_age": 12,
+        "end_age": 60,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 3,
+          "path": "/images/trip/upgJRVIx-Desert-safari-Dubai-400x300.jpg"
+        }
+      },
+      {
+        "id": 4,
+        "destination": {
+          "id": 4,
+          "name": "Istanbul",
+          "country_id": 4,
+          "country": {
+            "id": 4,
+            "name": "Turkey"
+          }
+        },
+        "description": "Historic Istanbul Tour",
+        "days_number": 6,
+        "rate": 4,
+        "num_of_ratings": 400,
+        "max_persons": 28,
+        "start_age": 10,
+        "end_age": 65,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 4,
+          "path": "/images/trip/Istanbul-Yeni-Camii-mosque-FT-MAG-0225-514497e0284d4f0389861b37e1d9a12e.webp"
+        }
+      },
+      {
+        "id": 5,
+        "destination": {
+          "id": 5,
+          "name": "Rome",
+          "country_id": 5,
+          "country": {
+            "id": 5,
+            "name": "Italy"
+          }
+        },
+        "description": "Ancient Rome Adventure",
+        "days_number": 8,
+        "rate": 5,
+        "num_of_ratings": 350,
+        "max_persons": 22,
+        "start_age": 16,
+        "end_age": 70,
+        "is_my_favourite": 0,
+        "photo": {
+          "id": 5,
+          "path": "/images/trip/Trevi-Fountain-rome-2-1024x683.jpg"
+        }
+      }
+    ],
+    "trip_offers": [],
+    "top_hotels": [
+      {
+        "id": 1,
+        "name": "Hilton",
+        "location": "City Center",
+        "num_of_rooms": 20,
+        "rate": 5,
+        "num_of_ratings": 120,
+        "stars": 5,
+        "price_start_from": 350,
+        "city_id": 1,
+        "type_id": 1,
+        "admin_id": 1,
+        "photo": [
+          { "id": 1, "path": "/images/hotel/hilton.jpg" }
+        ],
+        "city": {
+          "id": 1,
+          "name": "New York",
+          "country_id": 1,
+          "country": { "id": 1, "name": "USA" }
+        }
+      },
+      {
+        "id": 2,
+        "name": "Marriott",
+        "location": "Downtown",
+        "num_of_rooms": 15,
+        "rate": 5,
+        "num_of_ratings": 95,
+        "stars": 5,
+        "price_start_from": 320,
+        "city_id": 2,
+        "type_id": 2,
+        "admin_id": 2,
+        "photo": [
+          { "id": 4, "path": "/images/hotel/marriott.jpg" }
+        ],
+        "city": {
+          "id": 2,
+          "name": "London",
+          "country_id": 2,
+          "country": { "id": 2, "name": "UK" }
+        }
+      },
+      {
+        "id": 6,
+        "name": "Burj Al Arab",
+        "location": "Dubai Marina",
+        "num_of_rooms": 202,
+        "rate": 5,
+        "num_of_ratings": 3500,
+        "stars": 7,
+        "price_start_from": 1500,
+        "city_id": 11,
+        "type_id": 1,
+        "admin_id": 1,
+        "photo": [
+          {"id": 1,"path": "/images/hotel/burjarap.jpg"}
+        ],
+        "city": {
+          "id": 11,
+          "name": "Dubai",
+          "country_id": 11,
+          "country": {
+            "id": 11,
+            "name": "United Arab Emirates"
+          }
+        }
+      },
+      {
+        "id": 3,
+        "name": "Sheraton",
+        "location": "Airport Road",
+        "num_of_rooms": 18,
+        "rate": 4,
+        "num_of_ratings": 80,
+        "stars": 4,
+        "price_start_from": 300,
+        "city_id": 3,
+        "type_id": 3,
+        "admin_id": 3,
+        "photo": [
+          { "id": 6, "path": "/images/hotel/sheraton.jpg" }
+        ],
+        "city": {
+          "id": 3,
+          "name": "Paris",
+          "country_id": 3,
+          "country": { "id": 3, "name": "France" }
+        }
+      },
+      {
+        "id": 4,
+        "name": "Four Seasons",
+        "location": "Beachfront",
+        "num_of_rooms": 25,
+        "rate": 5,
+        "num_of_ratings": 110,
+        "stars": 5,
+        "price_start_from": 400,
+        "city_id": 4,
+        "type_id": 4,
+        "admin_id": 4,
+        "photo": [
+          { "id": 8, "path": "/images/hotel/four-seasons-las-vegas.webp" }
+        ],
+        "city": {
+          "id": 4,
+          "name": "Dubai",
+          "country_id": 4,
+          "country": { "id": 4, "name": "UAE" }
+        }
+      },
+      {
+        "id": 5,
+        "name": "Ritz-Carlton",
+        "location": "Old Town",
+        "num_of_rooms": 22,
+        "rate": 5,
+        "num_of_ratings": 105,
+        "stars": 5,
+        "price_start_from": 370,
+        "city_id": 5,
+        "type_id": 5,
+        "admin_id": 5,
+        "photo": [
+          { "id": 10, "path": "/images/hotel/rz-mcorz-exterior-at-night-11671_Wide-Hor.jpeg" }
+        ],
+        "city": {
+          "id": 5,
+          "name": "Tokyo",
+          "country_id": 5,
+          "country": { "id": 5, "name": "Japan" }
+        }
+      }
+    ],
+    "popularCountries": [
+      {
+        "id": 1,
+        "name": "France",
+        "path": "/images/flight/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg",
+        "total": 50
+      },
+      {
+        "id": 2,
+        "name": "Italy",
+        "path": "/images/flight/Italy_Country_Guide.jpg",
+        "total": 40
+      },
+      {
+        "id": 3,
+        "name": "Japan",
+        "path": "/images/flight/japan-725347-Header_Mobile.jpeg",
+        "total": 35
+      },
+      {
+        "id": 4,
+        "name": "Australia",
+        "path": "/images/flight/australia-beautiful-places-sydney-harbour.jpg",
+        "total": 25
+      },
+      {
+        "id": 5,
+        "name": "Brazil",
+        "path": "/images/flight/best-of-brazil-1038862-1722356990.jpg",
+        "total": 20
+      }
+    ]
+  }
+}

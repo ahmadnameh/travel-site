@@ -1,0 +1,91 @@
+{
+  "data" :
+  {
+    "Room_info": {
+        "id": 13,
+        "room_type": "room type",
+        "hotel_id": 2,
+        "details": "Mixing smart design with the unexpected, Hotel Hive unites modern innovation with historic character. Our distinctive 125-250 square foot rooms are perfectly unique hives for on-the-go guests looking to truly connect with the city.",
+        "Price_for_night": 350,
+        "rate": 3,
+        "num_of_ratings": 2782,
+        "Sleeps": 2,
+        "Beds": 3,
+        "created_at": "2025-07-18T09:19:59.000000Z",
+        "updated_at": "2025-07-18T09:19:59.000000Z",
+        "features": [
+            {
+                "id": 1,
+                "name": "HouseKeeping",
+                "pivot": {
+                    "room_id": 13,
+                    "features_id": 1
+                }
+            },
+            {
+                "id": 2,
+                "name": "Telephone",
+                "pivot": {
+                    "room_id": 13,
+                    "features_id": 2
+                }
+            },
+            {
+                "id": 3,
+                "name": "Television",
+                "pivot": {
+                    "room_id": 13,
+                    "features_id": 3
+                }
+            },
+            {
+                "id": 4,
+                "name": "Wake-up Service",
+                "pivot": {
+                    "room_id": 13,
+                    "features_id": 4
+                }
+            },
+            {
+                "id": 5,
+                "name": "Private Bathrooms",
+                "pivot": {
+                    "room_id": 13,
+                    "features_id": 5
+                }
+            }
+        ],
+        "photo": [
+            {
+                "id": 349,
+                "path": "/images/hotel/pexels-curtis-adams-3935331.jpg"
+            },
+            {
+                "id": 350,
+                "path": "/images/hotel/pexels-files-1648776.jpg"
+            },
+            {
+                "id": 351,
+                "path": "/images/hotel/pexels-pixabay-276688-1.jpg"
+            }
+        ],
+        "hotel": {
+            "id": 2,
+            "name": "hotel Name",
+            "email": "Sheraton@email.com",
+            "location": "behind tour",
+            "phone_number": "38552",
+            "details": "Sheraton is a beautiful hotel to stay in, with its wonderful scenes and perfect service, you will get best experience! Mixing smart design with the unexpected, Hotel Hive unites modern innovation with historic character. Our distinctive 125-250 square foot rooms are perfectly unique hives for on-the-go guests looking to truly connect with the city. From its prime location, Hotel Hive guests can buzz about the city and return to a unique and innovative hotel experience.",
+            "num_of_rooms": 1,
+            "rate": 5,
+            "num_of_ratings": 24,
+            "stars": 3,
+            "price_start_from": 320,
+            "website_url": "https:\/\/hotel.com",
+            "city_id": 8,
+            "type_id": 5,
+            "admin_id": 2
+        }
+    }
+}
+}

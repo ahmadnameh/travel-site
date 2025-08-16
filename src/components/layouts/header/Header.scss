@@ -1,0 +1,173 @@
+@use "../../../styles/variables";
+
+header {
+  transition: 0.3s;
+  &.static-header {
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    background-color: #f1f1f1;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 0 2px;
+  }
+  &.home-header {
+    background-image: linear-gradient(whitesmoke,60%,rgba(255,255,255,0.5),rgba(255,255,255,0)); 
+    > nav {
+      width: max-content;
+
+      ul > li {
+        border: 1px solid ;
+        border-radius: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 160px;
+      }
+    }
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div {
+      display: flex;
+      align-items: center;
+      
+      img {
+        width: 24px;
+        height: 24px;
+        border-radius: 12px;
+      }
+      > div {
+        border: 1px solid;
+        padding: 5px 10px;
+        border-radius: 10px;
+      }
+      select {
+        border: none;
+        background-color: transparent;
+        option {
+          padding: 10px;
+        }
+      }
+    }
+    > div {
+      gap: 30px;
+      > a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: #03314b;
+        padding: 6px 15px;
+        border-radius: 10px;
+        color: white;
+        
+  
+        svg {
+          transition: 0.3s;
+        }
+        &:hover svg {
+          transform: translateX(5px);
+        }
+      }
+    }
+    img {
+      width: 130px;
+      object-fit: cover;
+    }
+  }
+}
+header .container .mobNav {
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  
+  > ul {
+    display: none;
+    position: absolute;
+    top: 45px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    list-style-type: none;
+    right: 9%;
+    width: 214px;
+    border-radius: 15px;
+    li {
+      width: 100%;
+    }
+    > li > a {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: variables.$primary-color;
+      color: white;
+      border-radius: 4px;
+      margin-top: 10px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
+    &.mob {
+      display: inline-block;
+      box-shadow: 0 0 2px gray;
+
+    }
+  }
+}
+@media (max-width: 900px) {
+  header .container .mobNav {
+    display: inline-block;
+  }
+}
+
+nav {
+  margin: auto;
+    ul {
+      list-style-type: none;
+      gap: 20px;
+      li {
+        display: inline-block;
+      }
+      
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        padding: 10px;
+        transition: 0.4s;
+        font-size: 17px;
+        font-weight: 600
+      }
+    }
+}
+nav {
+  margin: auto;
+    ul {
+      list-style-type: none;
+      gap: 20px;
+      li {
+        display: inline-block;
+      }
+      
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        padding: 10px;
+        transition: 0.4s;
+        font-size: 17px;
+        font-weight: 600;
+        color : #03314b;
+        &.active {
+          color: variables.$secondary-color;
+        }
+      }
+    }
+}

@@ -1,0 +1,481 @@
+{
+  "data" : {
+    "topRated": [
+      {
+        "id": 1,
+        "name": "Hilton",
+        "location": "City Center",
+        "num_of_rooms": 20,
+        "rate": 5,
+        "num_of_ratings": 120,
+        "stars": 5,
+        "price_start_from": 350,
+        "city_id": 1,
+        "type_id": 1,
+        "admin_id": 1,
+        "photo": [
+          { "id": 1, "path": "/images/hotel/hilton.jpg" }
+        ],
+        "city": {
+          "id": 1,
+          "name": "New York",
+          "country_id": 1,
+          "country": { "id": 1, "name": "USA" }
+        }
+      },
+      {
+        "id": 2,
+        "name": "Marriott",
+        "location": "Downtown",
+        "num_of_rooms": 15,
+        "rate": 5,
+        "num_of_ratings": 95,
+        "stars": 5,
+        "price_start_from": 320,
+        "city_id": 2,
+        "type_id": 2,
+        "admin_id": 2,
+        "photo": [
+          { "id": 4, "path": "/images/hotel/marriott.jpg" }
+        ],
+        "city": {
+          "id": 2,
+          "name": "London",
+          "country_id": 2,
+          "country": { "id": 2, "name": "UK" }
+        }
+      },
+      {
+        "id": 6,
+        "name": "Burj Al Arab",
+        "location": "Dubai Marina",
+        "num_of_rooms": 202,
+        "rate": 5,
+        "num_of_ratings": 3500,
+        "stars": 7,
+        "price_start_from": 1500,
+        "city_id": 11,
+        "type_id": 1,
+        "admin_id": 1,
+        "photo": [
+          {"id": 1,"path": "/images/hotel/burjarap.jpg"}
+        ],
+        "city": {
+          "id": 11,
+          "name": "Dubai",
+          "country_id": 11,
+          "country": {
+            "id": 11,
+            "name": "United Arab Emirates"
+          }
+        }
+      },
+      {
+        "id": 3,
+        "name": "Sheraton",
+        "location": "Airport Road",
+        "num_of_rooms": 18,
+        "rate": 4,
+        "num_of_ratings": 80,
+        "stars": 4,
+        "price_start_from": 300,
+        "city_id": 3,
+        "type_id": 3,
+        "admin_id": 3,
+        "photo": [
+          { "id": 6, "path": "/images/hotel/sheraton.jpg" }
+        ],
+        "city": {
+          "id": 3,
+          "name": "Paris",
+          "country_id": 3,
+          "country": { "id": 3, "name": "France" }
+        }
+      },
+      {
+        "id": 4,
+        "name": "Four Seasons",
+        "location": "Beachfront",
+        "num_of_rooms": 25,
+        "rate": 5,
+        "num_of_ratings": 110,
+        "stars": 5,
+        "price_start_from": 400,
+        "city_id": 4,
+        "type_id": 4,
+        "admin_id": 4,
+        "photo": [
+          { "id": 8, "path": "/images/hotel/four-seasons-las-vegas.webp" }
+        ],
+        "city": {
+          "id": 4,
+          "name": "Dubai",
+          "country_id": 4,
+          "country": { "id": 4, "name": "UAE" }
+        }
+      },
+      {
+        "id": 5,
+        "name": "Ritz-Carlton",
+        "location": "Old Town",
+        "num_of_rooms": 22,
+        "rate": 5,
+        "num_of_ratings": 105,
+        "stars": 5,
+        "price_start_from": 370,
+        "city_id": 5,
+        "type_id": 5,
+        "admin_id": 5,
+        "photo": [
+          { "id": 10, "path": "/images/hotel/rz-mcorz-exterior-at-night-11671_Wide-Hor.jpeg" }
+        ],
+        "city": {
+          "id": 5,
+          "name": "Tokyo",
+          "country_id": 5,
+          "country": { "id": 5, "name": "Japan" }
+        }
+      }
+    ],
+
+  "Chain": [
+    {
+      "id": 5,
+      "name": "Ritz-Carlton",
+      "location": "Old Town",
+      "num_of_rooms": 22,
+      "rate": 5,
+      "num_of_ratings": 105,
+      "stars": 5,
+      "price_start_from": 370,
+      "city_id": 5,
+      "type_id": 5,
+      "admin_id": 5,
+      "photo": [
+        { "id": 10, "path": "/images/hotel/rz-mcorz-exterior-at-night-11671_Wide-Hor.jpeg" }
+      ],
+      "city": {
+        "id": 5,
+        "name": "Tokyo",
+        "country_id": 5,
+        "country": { "id": 5, "name": "Japan" }
+      }
+    },
+    {
+      "id": 4,
+      "name": "Four Seasons",
+      "location": "Beachfront",
+      "num_of_rooms": 25,
+      "rate": 5,
+      "num_of_ratings": 110,
+      "stars": 5,
+      "price_start_from": 400,
+      "city_id": 4,
+      "type_id": 4,
+      "admin_id": 4,
+      "photo": [
+        { "id": 8, "path": "/images/hotel/four-seasons-las-vegas.webp" }
+      ],
+      "city": {
+        "id": 4,
+        "name": "Dubai",
+        "country_id": 4,
+        "country": { "id": 4, "name": "UAE" }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Sheraton",
+      "location": "Airport Road",
+      "num_of_rooms": 18,
+      "rate": 4,
+      "num_of_ratings": 80,
+      "stars": 4,
+      "price_start_from": 300,
+      "city_id": 3,
+      "type_id": 3,
+      "admin_id": 3,
+      "photo": [
+        { "id": 6, "path": "/images/hotel/sheraton.jpg" }
+      ],
+      "city": {
+        "id": 3,
+        "name": "Paris",
+        "country_id": 3,
+        "country": { "id": 3, "name": "France" }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Marriott",
+      "location": "Downtown",
+      "num_of_rooms": 15,
+      "rate": 5,
+      "num_of_ratings": 95,
+      "stars": 5,
+      "price_start_from": 320,
+      "city_id": 2,
+      "type_id": 2,
+      "admin_id": 2,
+      "photo": [
+        { "id": 4, "path": "/images/hotel/marriott.jpg" }
+      ],
+      "city": {
+        "id": 2,
+        "name": "London",
+        "country_id": 2,
+        "country": { "id": 2, "name": "UK" }
+      }
+    },
+    {
+      "id": 1,
+      "name": "Hilton",
+      "location": "City Center",
+      "num_of_rooms": 20,
+      "rate": 5,
+      "num_of_ratings": 120,
+      "stars": 5,
+      "price_start_from": 350,
+      "city_id": 1,
+      "type_id": 1,
+      "admin_id": 1,
+      "photo": [
+        { "id": 1, "path": "/images/hotel/hilton.jpg" }
+      ],
+      "city": {
+        "id": 1,
+        "name": "New York",
+        "country_id": 1,
+        "country": { "id": 1, "name": "USA" }
+      }
+    }
+  ],
+  "Motel" : [
+    {
+      "id": 3,
+      "name": "Sheraton",
+      "location": "Airport Road",
+      "num_of_rooms": 18,
+      "rate": 4,
+      "num_of_ratings": 80,
+      "stars": 4,
+      "price_start_from": 300,
+      "city_id": 3,
+      "type_id": 3,
+      "admin_id": 3,
+      "photo": [
+        { "id": 6, "path": "/images/hotel/sheraton.jpg" }
+      ],
+      "city": {
+        "id": 3,
+        "name": "Paris",
+        "country_id": 3,
+        "country": { "id": 3, "name": "France" }
+      }
+    },
+  
+    {
+      "id": 5,
+      "name": "Ritz-Carlton",
+      "location": "Old Town",
+      "num_of_rooms": 22,
+      "rate": 5,
+      "num_of_ratings": 105,
+      "stars": 5,
+      "price_start_from": 370,
+      "city_id": 5,
+      "type_id": 5,
+      "admin_id": 5,
+      "photo": [
+        { "id": 10, "path": "/images/hotel/rz-mcorz-exterior-at-night-11671_Wide-Hor.jpeg" }
+      ],
+      "city": {
+        "id": 5,
+        "name": "Tokyo",
+        "country_id": 5,
+        "country": { "id": 5, "name": "Japan" }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Marriott",
+      "location": "Downtown",
+      "num_of_rooms": 15,
+      "rate": 5,
+      "num_of_ratings": 95,
+      "stars": 5,
+      "price_start_from": 320,
+      "city_id": 2,
+      "type_id": 2,
+      "admin_id": 2,
+      "photo": [
+        { "id": 4, "path": "/images/hotel/marriott.jpg" }
+      ],
+      "city": {
+        "id": 2,
+        "name": "London",
+        "country_id": 2,
+        "country": { "id": 2, "name": "UK" }
+      }
+    },
+    {
+      "id": 1,
+      "name": "Hilton",
+      "location": "City Center",
+      "num_of_rooms": 20,
+      "rate": 5,
+      "num_of_ratings": 120,
+      "stars": 5,
+      "price_start_from": 350,
+      "city_id": 1,
+      "type_id": 1,
+      "admin_id": 1,
+      "photo": [
+        { "id": 1, "path": "/images/hotel/hilton.jpg" }
+      ],
+      "city": {
+        "id": 1,
+        "name": "New York",
+        "country_id": 1,
+        "country": { "id": 1, "name": "USA" }
+      }
+    },
+    {
+      "id": 4,
+      "name": "Four Seasons",
+      "location": "Beachfront",
+      "num_of_rooms": 25,
+      "rate": 5,
+      "num_of_ratings": 110,
+      "stars": 5,
+      "price_start_from": 400,
+      "city_id": 4,
+      "type_id": 4,
+      "admin_id": 4,
+      "photo": [
+        { "id": 8, "path": "/images/hotel/four-seasons-las-vegas.webp" }
+      ],
+      "city": {
+        "id": 4,
+        "name": "Dubai",
+        "country_id": 4,
+        "country": { "id": 4, "name": "UAE" }
+      }
+    }
+  ],
+  "Resorts"  : [
+    {
+      "id": 4,
+      "name": "Four Seasons",
+      "location": "Beachfront",
+      "num_of_rooms": 25,
+      "rate": 5,
+      "num_of_ratings": 110,
+      "stars": 5,
+      "price_start_from": 400,
+      "city_id": 4,
+      "type_id": 4,
+      "admin_id": 4,
+      "photo": [
+        { "id": 8, "path": "/images/hotel/four-seasons-las-vegas.webp" }
+      ],
+      "city": {
+        "id": 4,
+        "name": "Dubai",
+        "country_id": 4,
+        "country": { "id": 4, "name": "UAE" }
+      }
+    },
+    
+  
+    {
+      "id": 5,
+      "name": "Ritz-Carlton",
+      "location": "Old Town",
+      "num_of_rooms": 22,
+      "rate": 5,
+      "num_of_ratings": 105,
+      "stars": 5,
+      "price_start_from": 370,
+      "city_id": 5,
+      "type_id": 5,
+      "admin_id": 5,
+      "photo": [
+        { "id": 10, "path": "/images/hotel/rz-mcorz-exterior-at-night-11671_Wide-Hor.jpeg" }
+      ],
+      "city": {
+        "id": 5,
+        "name": "Tokyo",
+        "country_id": 5,
+        "country": { "id": 5, "name": "Japan" }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Marriott",
+      "location": "Downtown",
+      "num_of_rooms": 15,
+      "rate": 5,
+      "num_of_ratings": 95,
+      "stars": 5,
+      "price_start_from": 320,
+      "city_id": 2,
+      "type_id": 2,
+      "admin_id": 2,
+      "photo": [
+        { "id": 4, "path": "/images/hotel/marriott.jpg" }
+      ],
+      "city": {
+        "id": 2,
+        "name": "London",
+        "country_id": 2,
+        "country": { "id": 2, "name": "UK" }
+      }
+    },
+    {
+      "id": 1,
+      "name": "Hilton",
+      "location": "City Center",
+      "num_of_rooms": 20,
+      "rate": 5,
+      "num_of_ratings": 120,
+      "stars": 5,
+      "price_start_from": 350,
+      "city_id": 1,
+      "type_id": 1,
+      "admin_id": 1,
+      "photo": [
+        { "id": 1, "path": "/images/hotel/hilton.jpg" }
+      ],
+      "city": {
+        "id": 1,
+        "name": "New York",
+        "country_id": 1,
+        "country": { "id": 1, "name": "USA" }
+      }
+    },{
+      "id": 3,
+      "name": "Sheraton",
+      "location": "Airport Road",
+      "num_of_rooms": 18,
+      "rate": 4,
+      "num_of_ratings": 80,
+      "stars": 4,
+      "price_start_from": 300,
+      "city_id": 3,
+      "type_id": 3,
+      "admin_id": 3,
+      "photo": [
+        { "id": 6, "path": "/images/hotel/sheraton.jpg" }
+      ],
+      "city": {
+        "id": 3,
+        "name": "Paris",
+        "country_id": 3,
+        "country": { "id": 3, "name": "France" }
+      }
+    }
+  ]
+  }
+  
+}
