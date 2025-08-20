@@ -43,6 +43,9 @@ const Header = () => {
 
     }, []);
   
+  useEffect(() => {
+    setOpenedMobileNav(false);
+  }, [location]);
 
   const isHomePage = location.pathname === "/" && !(window.scrollY > 100);
   

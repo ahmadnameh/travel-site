@@ -16,6 +16,12 @@
   padding-right: 15px;
 }
 
+@media (max-width: 768px ) {
+  .container {
+    max-width: 96%;
+  }
+}
+
 a {
   text-decoration: none;
 }
